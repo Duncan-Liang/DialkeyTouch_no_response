@@ -1,0 +1,56 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #20
+    * TaskRecord{98f014a #20 A=com.asus.launcher3 U=0 sz=1}
+      userId=0 effectiveUid=u0a8 mCallingUid=0 mCallingPackage=null
+      affinity=com.asus.launcher3
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.asus.launcher3/.Launcher}
+      realActivity=com.asus.launcher3/.Launcher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/20_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeable=false firstActiveTime=1469326652065 lastActiveTime=1469326652065 (inactive for 59s)
+      * Hist #0: ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}
+          packageName=com.asus.launcher3 processName=com.asus.launcher3
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{ce16c27 1766:com.asus.launcher3/u0a8}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.asus.launcher3/.Launcher }
+          frontOfTask=true task=TaskRecord{98f014a #20 A=com.asus.launcher3 U=0 sz=1}
+          taskAffinity=com.asus.launcher3
+          realActivity=com.asus.launcher3/.Launcher
+          baseDir=/system/priv-app/AsusSmartLauncher/AsusSmartLauncher.apk
+          dataDir=/data/user/0/com.asus.launcher3
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={320dpi} labelRes=0x7f090378 icon=0x7f030002 theme=0x7f0d00a1
+          config={0 1.0 ?mcc?mnc zh_CN ldltr sw360dp w360dp h568dp 320dpi nrml port finger -keyb/v/h -nav/h s.5}
+          stackConfigOverride={0 1.0 ?mcc?mnc ?locale ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-8m44s0ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-59s146ms
+
+    Running activities (most recent first):
+      TaskRecord{98f014a #20 A=com.asus.launcher3 U=0 sz=1}
+        Run #0: ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}
+
+    mResumedActivity: ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}
+    mLastPausedActivity: ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}
+
+  mFocusedActivity: ActivityRecord{28c16b5 u0 com.asus.launcher3/.Launcher t20}
+  mFocusedStack=ActivityStack{49f1726 stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{49f1726 stackId=0, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=21
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A}
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+    0:[]
+ mLockTaskModeTasks[]
