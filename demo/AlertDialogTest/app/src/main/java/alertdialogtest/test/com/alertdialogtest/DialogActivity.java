@@ -1,11 +1,13 @@
 package alertdialogtest.test.com.alertdialogtest;
 
 import android.app.Activity;
-import android.app.Dialog;
+import android.app.AlertDialog;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
+
 
 
 public class DialogActivity extends Activity {
@@ -14,16 +16,17 @@ public class DialogActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        Dialog dialog = new Dialog(this);
+        AlertDialog dialog = new AlertDialog.Builder(this).setTitle("test").create();
+        //dialog.show();
 
         // setContentView可以设置为一个View也可以简单地指定资源ID
         // LayoutInflater
         // li=(LayoutInflater)getSystemService(LAYOUT_INFLATER_SERVICE);
         // View v=li.inflate(R.layout.dialog_layout, null);
         // dialog.setContentView(v);
-        dialog.setContentView(R.layout.dialog_layout);
+        //dialog.setContentView(R.layout.dialog_layout);
 
-        dialog.setTitle("Custom Dialog");
+        //dialog.setTitle("Custom Dialog");
 
         /*
          * 获取圣诞框的窗口对象及参数对象以修改对话框的布局设置,
@@ -55,7 +58,8 @@ public class DialogActivity extends Activity {
         lp.y = 595; // 新位置Y坐标
         lp.width = 240; // 宽度
         lp.height = 41; // 高度
-        lp.alpha = 0.7f; // 透明度
+        lp.alpha = 1.0f; // 透明度
+
 
         // 当Window的Attributes改变时系统会调用此函数,可以直接调用以应用上面对窗口参数的更改,也可以用setAttributes
         // dialog.onWindowAttributesChanged(lp);
@@ -64,12 +68,12 @@ public class DialogActivity extends Activity {
         /*
          * 将对话框的大小按屏幕大小的百分比设置
          */
-//        WindowManager m = getWindowManager();
-//        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
-//        WindowManager.LayoutParams p = dialogWindow.getAttributes(); // 获取对话框当前的参数值
-//        p.height = (int) (d.getHeight() * 0.6); // 高度设置为屏幕的0.6
-//        p.width = (int) (d.getWidth() * 0.65); // 宽度设置为屏幕的0.65
-//        dialogWindow.setAttributes(p);
+        WindowManager m = getWindowManager();
+        Display d = m.getDefaultDisplay(); // 获取屏幕宽、高用
+        WindowManager.LayoutParams p = dialogWindow.getAttributes(); // 获取对话框当前的参数值
+        p.height = (int) (d.getHeight() * 0.6); // 高度设置为屏幕的0.6
+        p.width = (int) (d.getWidth() * 0.65); // 宽度设置为屏幕的0.65
+        dialogWindow.setAttributes(p);
 
         dialog.show();
     }
