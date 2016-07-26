@@ -102,16 +102,16 @@ public class FloatViewService extends Service
             public boolean onTouch(View v, MotionEvent event)
             {
                 // TODO Auto-generated method stub
-                //getRawX是触摸位置相对于屏幕的坐标，getX是相对于按钮的坐标
-                wmParams.x = (int) event.getRawX() - mFloatView.getMeasuredWidth()/2;
-                Log.i(TAG, "RawX" + event.getRawX());
-                Log.i(TAG, "X" + event.getX());
-                //减25为状态栏的高度
-                wmParams.y = (int) event.getRawY() - mFloatView.getMeasuredHeight()/2 - 25;
-                Log.i(TAG, "RawY" + event.getRawY());
-                Log.i(TAG, "Y" + event.getY());
-                //刷新
-                mWindowManager.updateViewLayout(mFloatLayout, wmParams);
+//                //getRawX是触摸位置相对于屏幕的坐标，getX是相对于按钮的坐标
+//                wmParams.x = (int) event.getRawX() - mFloatView.getMeasuredWidth()/2;
+//                Log.i(TAG, "RawX" + event.getRawX());
+//                Log.i(TAG, "X" + event.getX());
+//                //减25为状态栏的高度
+//                wmParams.y = (int) event.getRawY() - mFloatView.getMeasuredHeight()/2 - 25;
+//                Log.i(TAG, "RawY" + event.getRawY());
+//                Log.i(TAG, "Y" + event.getY());
+//                //刷新
+//                mWindowManager.updateViewLayout(mFloatLayout, wmParams);
                 return false;  //此处必须返回false，否则OnClickListener获取不到监听
             }
         });

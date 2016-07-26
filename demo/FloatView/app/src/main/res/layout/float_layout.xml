@@ -4,8 +4,8 @@
     android:layout_height="match_parent">
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="240dp"
+        android:layout_height="41dp"
         android:text="New Button"
         android:id="@+id/float_id" />
 </LinearLayout>
