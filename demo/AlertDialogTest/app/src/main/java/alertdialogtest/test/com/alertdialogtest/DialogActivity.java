@@ -55,7 +55,7 @@ public class DialogActivity extends Activity {
          * Gravity.LEFT, Gravity.TOP, Gravity.BOTTOM与Gravity.RIGHT都是如此,据边界有一小段距离
          */
         lp.x = 240; // 新位置X坐标
-        lp.y = 595; // 新位置Y坐标
+        lp.y = 550; // 新位置Y坐标
         lp.width = 240; // 宽度
         lp.height = 41; // 高度
         lp.alpha = 1.0f; // 透明度

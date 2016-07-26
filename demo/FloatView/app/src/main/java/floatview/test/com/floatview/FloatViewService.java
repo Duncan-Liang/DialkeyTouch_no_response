@@ -69,7 +69,7 @@ public class FloatViewService extends Service
         //wmParams.x = 0;
         //wmParams.y = 0;
         wmParams.x = 240;
-        wmParams.y = 595;
+        wmParams.y = 547;
         wmParams.width = 240;
         wmParams.height = 41;
 
