@@ -1,0 +1,718 @@
+<< /proc/last_kmsg >>:
+ram console header, hw_status: 2, fiq step 0.
+LINE NOT AVAILABLE!!
+[   14.353785] <2>.(2)[1:swapper/0][ALS/PS] epl_sensor_i2c_probe: OK
+[   14.354698] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [epl259x] using legacy suspend method
+[   14.355850] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [epl259x] using legacy resume method
+[   14.357030] <2>.(2)[1:swapper/0]<ALS/PS>  alsps real driver epl259x probe ok
+[   14.357899] <2>.(2)[1:swapper/0]<ALS/PS> Node of '/dev/als_ps' has already existed!
+[   14.358853] <2>.(2)[1:swapper/0]<ALS/PS> alsps_probe 1030 : alsps factory device already registed
+[   14.360788] <2>.(2)[1:swapper/0][name:input_core&]input: m_alsps_input as /devices/virtual/input/input4
+[   14.362456] <2>.(2)[1:swapper/0]<ALS/PS> ----alsps_probe OK !!
+[   14.363184] <2>.(2)[1:swapper/0][name:main&]initcall alsps_init+0x0/0x434 returned 0 after 88855 usecs
+[   14.364341] <2>.(2)[1:swapper/0][name:bootprof&]BOOTPROF:     14364.336802:alsps_init   92160538 ns
+[   14.365853] <2>.(2)[1:swapper/0][name:main&]initcall AAL_init+0x0/0x90 returned 0 after 332 usecs
+[   14.367722] <2>.(2)[1:swapper/0][Gsensor] kxtj2_1009_i2c_probe
+[   14.368440] <2>.(2)[1:swapper/0]kxtj2_1009_i2c_probe,2455
+[   14.369119] <2>.(2)[1:swapper/0]kxtj2_1009_i2c_probe,2507
+[   14.369784] <2>.(2)[1:swapper/0]kxtj2_1009_init_client,788
+[   14.370467] <2>.(2)[1:swapper/0]KXTJ2_1009_CheckDeviceID,569
+[   14.371423] <2>.(2)[1:swapper/0][name:i2c&]ERROR,503: id=2,addr: e, transfer error
+[   14.372358] <2>.(2)[1:swapper/0][name:i2c&]ERROR,509: I2C_ACKERR
+[   14.373106] <2>.(2)[1:swapper/0][name:i2c&]I2C(2) dump info++++++++++++++++++++++
+[   14.374043] <2>.(2)[1:swapper/0][name:i2c&]I2C structure:
+[   14.374043] <2>[I2C]Clk=13650,Id=2,Speed mode=0,St_rs=0,Dma_en=0,Op=1,Poll_en=0,Irq_stat=2
+[   14.374043] <2>[I2C]Trans_len=1,Trans_num=1,Trans_auxlen=0,Data_size=ffff,speed=100
+[   14.374043] <2>[I2C]Trans_stop=1,Trans_comp=0,Trans_error=2
+[   14.377392] <2>.(2)[1:swapper/0][name:i2c&]base address 0xffffff8001918000
+[   14.378257] <2>.(2)[1:swapper/0][name:i2c&]I2C register:
+[   14.378257] <2>[I2C]SLAVE_ADDR=1c,INTR_MASK=f8,INTR_STAT=1,CONTROL=28,TRANSFER_LEN=1
+[   14.378257] <2>[I2C]TRANSAC_LEN=1,DELAY_LEN=2,TIMING=1121,START=0,FIFO_STAT=1101
+[   14.378257] <2>[I2C]IO_CONFIG=3,HS=102,DCM_EN=0,DEBUGSTAT=40,EXT_CONF=8001,TRANSFER_LEN_AUX=0
+[   14.381923] <2>.(2)[1:swapper/0][name:i2c&]before enable DMA register(0x0):
+[   14.381923] <2>[I2C]INT_FLAG=0,INT_EN=0,EN=0,RST=0,
+[   14.381923] <2>[I2C]STOP=0,FLUSH=0,CON=0,TX_MEM_ADDR=0, RX_MEM_ADDR=0
+[   14.381923] <2>[I2C]TX_LEN=0,RX_LEN=0,INT_BUF_SIZE=0,DEBUG_STATUS=0
+[   14.384986] <2>.(2)[1:swapper/0][name:i2c&]DMA register(0xffffff80018fc280):
+[   14.384986] <2>[I2C]INT_FLAG=0,INT_EN=0,EN=0,RST=0,
+[   14.384986] <2>[I2C]STOP=0,FLUSH=0,CON=0,TX_MEM_ADDR=0, RX_MEM_ADDR=0
+[   14.384986] <2>[I2C]TX_LEN=0,RX_LEN=0,INT_BUF_SIZE=0,DEBUG_STATUS=0
+[   14.388052] <2>.(2)[1:swapper/0][name:i2c&]I2C(2) dump info------------------------------
+[   14.389088] <2>.(2)[1:swapper/0][Gsensor] kxtj2_1009_i2c_probe 2580 : kxtj2_1009_i2c_probe: err = -1
+[   14.390259] <2>.(2)[1:swapper/0]KXTJ2_1009: probe of 2-000e failed with error -1
+[   14.391336] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [KXTJ2_1009] using legacy suspend method
+[   14.392521] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [KXTJ2_1009] using legacy resume method
+[   14.393983] <2>.(2)[1:swapper/0][accel] n2dm_init_client
+[   14.394636] <2>.(2)[1:swapper/0][accel]  n2dm addr 8!
+[   14.395886] <2>.(2)[1:swapper/0][accel]  N2DM  id 33!
+[   14.396506] <2>.(2)[1:swapper/0][accel] Sensor power status is newest!
+[   14.397319] <2>.(2)[1:swapper/0][accel] n2dm_SetFullScale
+[   14.398596] <2>.(2)[1:swapper/0][accel] read  N2DM_REG_CTRL4_REG register: 0x8
+[   14.400495] <2>.(2)[1:swapper/0][accel] read  N2DM_REG_CTRL1_REG register: 0x7
+[   14.402442] <2>.(2)[1:swapper/0][accel] read  acc data format register: 0x7
+[   14.403904] <2>.(2)[1:swapper/0][accel] read  acc data format register: 0x8
+[   14.404763] <2>.(2)[1:swapper/0][accel] n2dm_SetSampleRate
+[   14.406051] <2>.(2)[1:swapper/0][accel] read  acc data format register: 0x7
+[   14.407310] <2>.(2)[1:swapper/0][accel] n2dm_SetWorkMode
+[   14.408573] <2>.(2)[1:swapper/0][accel] read  N2DM_REG_CTRL4_REG register: 0x8
+[   14.410504] <2>.(2)[1:swapper/0][accel] read  acc data format register: 0x57
+[   14.412016] <2>.(2)[1:swapper/0][accel] read  acc data format register: 0x8
+[   14.412875] <2>.(2)[1:swapper/0][accel] n2dm_init_client OK!
+[   14.414651] <2>.(2)[1:swapper/0][accel] n2dm_i2c_probe: OK
+[   14.415469] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [N2DM] using legacy suspend method
+[   14.416589] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [N2DM] using legacy resume method
+[   14.417748] <2>.(2)[1:swapper/0][name:accel&]<ACCELEROMETER> acc factory device already registed
+[   14.419670] <2>.(2)[1:swapper/0][name:input_core&]input: m_acc_input as /devices/virtual/input/input5
+[   14.421369] <2>.(2)[1:swapper/0][name:main&]initcall acc_init+0x0/0x5b8 returned 0 after 53107 usecs
+[   14.422505] <2>.(2)[1:swapper/0][name:bootprof&]BOOTPROF:     14422.500725:acc_init   55532231 ns
+[   14.424332] <2>.(2)[1:swapper/0][name:qmcX983&][QMC-Msensor] qmcX983_i2c_probe
+[   14.426500] <2>.(2)[1:swapper/0][name:qmcX983&][QMC-Msensor] QMCX983 I2C driver registered!
+[   14.428917] <2>.(2)[1:swapper/0][name:qmcX983&][QMC-Msensor] qmcX983_i2c_probe: OK
+[   14.430012] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [qmcX983] using legacy suspend method
+[   14.431224] <2>.(2)[1:swapper/0][name:i2c_core&]i2c-core: driver [qmcX983] using legacy resume method
+[   14.432410] <2>.(2)[1:swapper/0][name:mag&]<MAGNETIC> mag_probe 942 : mag_factory_device_init fail
+[   14.434334] <2>.(2)[1:swapper/0][name:input_core&]input: m_mag_input as /devices/virtual/input/input6
+[   14.435958] <2>.(2)[1:swapper/0][name:main&]initcall mag_init+0x0/0x788 returned 0 after 12017 usecs
+[   14.437138] <2>-(2)[1:swapper/0][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: RTC_IRQ_EN = 0xc, RTC_PDN1 = 0x0
+[   14.438378] <2>-(2)[1:swapper/0][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[12] = {16432, 1, 6}
+[   14.439641] <2>.(2)[1:swapper/0][name:mtk_rtc_common&]mtk_rtc_common: There is Crystal
+[   14.440744] <2>.(2)[1:swapper/0][name:main&]initcall rtc_late_init+0x0/0xcc returned 0 after 3536 usecs
+[   14.442044] <2>.(2)[1:swapper/0][name:main&]initcall mtk_memcfg_late_sanity_test+0x0/0x8 returned 0 after 1 usecs
+[   14.444516] <2>.(2)[1:swapper/0][name:main&]initcall mtk_memcfg_late_init+0x0/0x274 returned 0 after 1144 usecs
+[   14.445791] <2>.(2)[1:swapper/0][name:devapc&][DEVAPC] module init.
+[   14.447443] <2>.(2)[1:swapper/0][name:devapc&][DEVAPC] module probe.
+[   14.448454] <2>.(2)[1:swapper/0][name:devapc&][DEVAPC] AO_ADDRESS ffffff8003474000
+[   14.449484] <2>.(2)[1:swapper/0][name:devapc&][DEVAPC] PD_ADDRESS ffffff8003476000, IRD: 166
+[   14.450610] <2>.(2)[1:swapper/0][name:mtk_hibernate_dpm&][HIB/SwSuspHlper] reg. func 0:0xffffffc00052bf6c with device            (null)
+[   14.452175] <2>.(2)[1:swapper/0][name:devapc&][DEVAPC] Making SMC call to ATF.
+[   14.454666] <2>.(2)[1:swapper/0][name:main&]initcall devapc_init+0x0/0x1a4 returned 0 after 8661 usecs
+[   14.456193] <2>.(2)[1:swapper/0][name:main&]initcall ram_console_late_init+0x0/0x108 returned 0 after 333 usecs
+[   14.457533] <2>.(2)[1:swapper/0][name:main&]initcall init_fliper+0x0/0x160 returned 0 after 55 usecs
+[   14.459351] <2>.(2)[1:swapper/0][name:main&]initcall usbsw_driver_init+0x0/0x22c returned 0 after 642 usecs
+[   14.461863] <2>.(2)[1:swapper/0][name:main&]initcall emi_bwl_mod_init+0x0/0x27c returned 0 after 1240 usecs
+[   14.464017] <2>.(2)[1:swapper/0][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=0, softconnect=0 ++
+[   14.465204] <2>.(2)[1:swapper/0][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   14.466170] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_ffs, f->name = ffs
+[   14.467885] <2>.(2)[1:swapper/0][name:g_android&][g_android]file system registered
+[   14.468820] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init ffs success!!
+[   14.470075] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_adb, f->name = adb
+[   14.472252] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init adb success!!
+[   14.473470] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_acm, f->name = acm
+[   14.476839] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init acm success!!
+[   14.478119] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_mtp, f->name = mtp
+[   14.480640] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init mtp success!!
+[   14.482028] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_ptp, f->name = ptp
+[   14.483713] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init ptp success!!
+[   14.484932] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_ecm, f->name = ecm
+[   14.486620] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init ecm success!!
+[   14.487868] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_eem, f->name = eem
+[   14.489542] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init eem success!!
+[   14.490790] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_gser, f->name = gser
+[   14.494032] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init gser success!!
+[   14.495295] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_rndis, f->name = rndis
+[   14.497012] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init rndis success!!
+[   14.498373] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_mass_storage, f->name = mass_storage
+[   14.500777] <2>.(2)[1:swapper/0]android_usb gadget: Mass Storage Function, version: 2009/09/11
+[   14.501903] <2>.(2)[1:swapper/0]android_usb gadget: Number of LUNs=1
+[   14.502694] <2>.(2)[1:swapper/0] lun0: LUN: removable file: (no medium)
+[   14.503568] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init mass_storage success!!
+[   14.504952] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_accessory, f->name = accessory
+[   14.507090] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init accessory success!!
+[   14.508374] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_audio_source, f->name = audio_source
+[   14.510252] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init audio_source success!!
+[   14.511639] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: f->dev_name = f_midi, f->name = midi
+[   14.513341] <2>.(2)[1:swapper/0][name:g_android&][g_android][USB]android_init_functions: init midi success!!
+[   14.514601] <2>.(2)[1:swapper/0]android_usb gadget: android_usb ready
+[   14.515397] <2>.(2)[1:swapper/0][name:musb_hdrc&][MUSB]musb_gadget_start 2769: musb_gadget_start
+[   14.516511] <2>.(2)[1:swapper/0]musb-hdrc musb-hdrc.0.auto: MUSB HDRC host driver
+[   14.517844] <2>.(2)[1:swapper/0]musb-hdrc musb-hdrc.0.auto: new USB bus registered, assigned bus number 1
+[   14.523410] <2>.(2)[1:swapper/0]hub 1-0:1.0: USB hub found
+[   14.524329] <2>.(2)[1:swapper/0]hub 1-0:1.0: 1 port detected
+[   14.525842] <2>-(2)[1:swapper/0][name:musb_hdrc&][MUSB]musb_hub_control 365: try to call musb_start in virthub
+[   14.528200] <2>.(2)[1:swapper/0][name:main&]initcall init+0x0/0x26c returned 0 after 63564 usecs
+[   14.529293] <2>.(2)[1:swapper/0][name:bootprof&]BOOTPROF:     14529.289264:init   66201077 ns
+[   14.533474] <2>.(2)[1:swapper/0]mtk-tpd soc:touch: fwq Cannot find touch pinctrl default -19!
+[   14.534561] <2>.(2)[1:swapper/0][name:mtk_tpd&]mtk_tpd: TPD_RES_X = 720, TPD_RES_Y = 1280
+[   14.535572] <2>.(2)[1:swapper/0][HXTP] [Himax] Himax_ts I2C Touchscreen Driver local init
+[   14.537321] <2>.(2)[1:swapper/0]junpiao: dma_alloc_coherent
+[   14.538007] <2>.(2)[1:swapper/0]frank_zhonghua1_himax_client-addr = 48
+[   14.538827] <2>.(2)[1:swapper/0]junpiao: i2c_set_clientdata
+[   14.539521] [HXTP]  DT-himax_parse_dt:display-coords = (0, 0)[HXTP]  DT:gpio_3v3_en value is not valid
+[   14.540674] [HXTP]  DT:gpio_irq=1, gpio_rst=0, gpio_3v3_en=-2[HXTP]  DT-No vk info in DT[HXTP]  himax852xes_probe:panel-coords = 0, 720, 0, 1280
+[   14.542338] [HXTP]  himax852xes_probe:display-coords = (720, 1280)
+[   14.621588] <2>-(2)[60:kworker/2:1][name:musb_hdrc&][MUSB]musb_hub_control 347: port status 00000100,devctl=0x98
+[   14.671793] <1>.(1)[96:hps_main][name:smp&]CPU3: shutdown
+[   14.685436] <1>.(1)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0200)(4)action end(4)(4)(0)(0) (4)(4)(4)(4)(1) (0)(0)(0) (1849)(103)(7) (0)(4)(103)(0)(4) wifi_base(0)
+[   14.863020] <2>.(2)[1:swapper/0][HXTP] Himax IC package 852x ES
+[   14.888336] <1>.(1)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(3)DBG_HRT(17)(11)(0)(0) (4)(4)(4)(4)(1) (57)(2)(0) (57)(2)(2) (0)(11)(2)(0)(11) wifi_base(0)
+[   14.922364] <2>.(2)[1:swapper/0][HXTP] sensor_id=22.
+[   14.923014] <2>.(2)[1:swapper/0][HXTP] fw_ver=e4,11.
+[   14.923655] <2>.(2)[1:swapper/0][HXTP] config_ver=9.
+[   14.924288] dingyisheng:HLT module update![HXTP] IMAGE FW_VER=e4,11.
+[   14.925104] <2>.(2)[1:swapper/0][HXTP] IMAGE CFG_VER=9.
+[   15.262645] <2>.(2)[1:swapper/0][HXTP] himax_calculateChecksum 0xAD[0,1,2,3] = 0,0,0,0 
+[   15.264099] <2>.(2)[1:swapper/0][HXTP] NOT Have new FW=NOT UPDATE=
+[   15.501489] <1>.(1)[96:hps_main][name:smp&]CPU2: shutdown
+[   15.515065] <0>.(0)[96:hps_main][name:smp&]CPU1: shutdown
+[   15.520937] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0200)(3)action end(7)(4)(0)(0) (4)(4)(4)(4)(1) (13)(8)(0) (113)(8)(0) (0)(4)(8)(0)(4) wifi_base(0)
+[   15.602750] <0>.(0)[1:swapper/0][HXTP] himax_calculateChecksum 0xAD[0,1,2,3] = 0,0,0,0 
+[   15.604889] <0>.(0)[1:swapper/0][HXTP] himax_power_on_initCMD:
+[   15.821352] <0>.(0)[1:swapper/0][HXTP] himax_touch_information:IC_TYPE =6
+[   15.982736] <0>.(0)[1:swapper/0][HXTP] himax_touch_information:Touch Panel Type=2 
+[   16.061532] <0>.(0)[1:swapper/0][HXTP] himax_touch_information:HX_RX_NUM =24,HX_TX_NUM =10,HX_MAX_PT=5 
+[   16.063400] <0>.(0)[1:swapper/0][HXTP] config_ver=9.
+[   16.161565] <0>.(0)[1:swapper/0][HXTP] himax_loadSensorConfig: initialization complete
+[   16.162662] [HXTP] calcDataSize: coord_data_size: 20, area_data_size:8, raw_data_frame_size:91, raw_data_nframes:1[HXTP] himax852xes_probe: calcDataSize complete
+[   16.164493] <0>.(0)[1:swapper/0][HXTP] himax852xes_probe: Use Protocol Type A
+[   16.165577] <0>.(0)[1:swapper/0][HXTP] input_set_abs_params: min_x 0, max_x 720, min_y 0, max_y 1280
+[   16.170964] <0>.(0)[1:swapper/0][name:input_core&]input: himax-touchscreen as /devices/virtual/input/input8
+[   16.180251] <0>.(0)[1:swapper/0]Himax_interrupt = himax_ts_register_interrupt
+[   16.184199] <0>.(0)[1:swapper/0]hxtp:himax_touch_irq=298d 
+[   16.427300] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(1)DBG_HRT(10)(9)(0)(0) (4)(4)(4)(4)(1) (20)(9)(1) (0)(0)(0) (0)(9)(9)(0)(9) wifi_base(0)
+[   16.563818] <0>.(0)[103:display_esd_che]DSI read long packet size: 1
+[   16.564650] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   16.565796] <0>.(0)[103:display_esd_che]DSI read long packet size: 3
+[   16.566620] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   16.567667] <0>.(0)[103:display_esd_che]DSI read long packet size: 2
+[   16.568488] <0>.(0)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   17.181364] [HXTP] himax_ts_register_interrupt edge triiger falling
+ frank_zhonghua:Himax_probe_end
+[   17.187074] <0>.(0)[1:swapper/0][HXTP] end himax852xes_local_init, 7371
+[   17.189960] <0>.(0)[181:mtk-tpd]no_function touch_event_handler begin func==touch_event_handler line=2901
+[   17.191297] <0>.(0)[181:mtk-tpd]no_function wait_event_interruptible begin func==touch_event_handler line=2906
+[   17.197282] <0>.(0)[1:swapper/0][name:input_core&]input: mtk-tpd as /devices/virtual/input/input7
+[   17.203315] <0>.(0)[1:swapper/0][name:main&]initcall tpd_device_init+0x0/0x5c returned 0 after 2610268 usecs
+[   17.204539] <0>.(0)[1:swapper/0][name:bootprof&]BOOTPROF:     17204.534578:tpd_device_init 2674155391 ns
+[   17.206611] <0>.(0)[1:swapper/0]mt-rtc mt-rtc: setting system clock to 2016-01-01 17:38:56 UTC (1451669936)
+[   17.207822] <0>.(0)[1:swapper/0][name:main&]initcall rtc_hctosys+0x0/0x164 returned 0 after 2016 usecs
+[   17.210795] <0>.(0)[1:swapper/0][name:battery_common&]******** battery_dts_probe!! ********
+[   17.212754] <0>.(0)[1:swapper/0][name:battery_common&]******** battery driver probe!! ********
+[   17.214621] [name:battery_common&][BAT_probe] adc_cali prepare : done !!
+ 
+[   17.215459] <0>.(0)[1:swapper/0][name:battery_common&]battery custom init by DTS
+[   17.216683] <0>.(0)[1:swapper/0][name:battery_common&]Get stop_charging_in_takling: 1
+[   17.217653] <0>.(0)[1:swapper/0][name:battery_common&]Get talking_recharge_voltage: 3800
+[   17.218888] <0>.(0)[1:swapper/0][name:battery_common&]Get talking_sync_time: 60
+[   17.219793] <0>.(0)[1:swapper/0][name:battery_common&]Get mtk_temperature_recharge_support: 1
+[   17.220855] <0>.(0)[1:swapper/0][name:battery_common&]Get max_charge_temperature: 55
+[   17.221935] <0>.(0)[1:swapper/0][name:battery_common&]Get max_charge_temperature_minus_x_degree: 51
+[   17.223056] <0>.(0)[1:swapper/0][name:battery_common&]Get min_charge_temperature: 0
+[   17.224010] <0>.(0)[1:swapper/0][name:battery_common&]Get min_charge_temperature_plus_x_degree: 5
+[   17.225117] <0>.(0)[1:swapper/0][name:battery_common&]Get err_charge_temperature: 255
+[   17.226093] <0>.(0)[1:swapper/0][name:battery_common&]Get v_pre2cc_thres: 3400
+[   17.226993] <0>.(0)[1:swapper/0][name:battery_common&]Get v_cc2topoff_thres: 4200
+[   17.227940] <0>.(0)[1:swapper/0][name:battery_common&]Get recharging_voltage: 4260
+[   17.228876] <0>.(0)[1:swapper/0][name:battery_common&]Get charging_full_current: 190
+[   17.229841] <0>.(0)[1:swapper/0][name:battery_common&]Get config_usb_if: 0
+[   17.230698] <0>.(0)[1:swapper/0][name:battery_common&]Get usb_charger_current_suspend: 0
+[   17.231742] <0>.(0)[1:swapper/0][name:battery_common&]Get usb_charger_current_unconfigured: 7000
+[   17.232935] <0>.(0)[1:swapper/0][name:battery_common&]Get usb_charger_current_configured: 50000
+[   17.234013] <0>.(0)[1:swapper/0][name:battery_common&]Get usb_charger_current: 50000
+[   17.234978] <0>.(0)[1:swapper/0][name:battery_common&]Get ac_charger_input_current: 200000
+[   17.236009] <0>.(0)[1:swapper/0][name:battery_common&]Get ac_charger_current: 170000
+[   17.237125] <0>.(0)[1:swapper/0][name:battery_common&]Get non_std_ac_charger_current: 50000
+[   17.238161] <0>.(0)[1:swapper/0][name:battery_common&]Get charging_host_charger_current: 65000
+[   17.239234] <0>.(0)[1:swapper/0][name:battery_common&]Get apple_0_5a_charger_current: 50000
+[   17.240275] <0>.(0)[1:swapper/0][name:battery_common&]Get apple_1_0a_charger_current: 65000
+[   17.241360] <0>.(0)[1:swapper/0][name:battery_common&]Get apple_2_1a_charger_current: 80000
+[   17.242395] <0>.(0)[1:swapper/0][name:battery_common&]Get bat_low_temp_protect_enable: 1
+[   17.243403] <0>.(0)[1:swapper/0][name:battery_common&]Get v_charger_enable: 1
+[   17.244293] <0>.(0)[1:swapper/0][name:battery_common&]Get v_charger_max: 6500
+[   17.245183] <0>.(0)[1:swapper/0][name:battery_common&]Get v_charger_min: 4400
+[   17.246085] <0>.(0)[1:swapper/0][name:battery_common&]Get onehundred_percent_tracking_time: 10
+[   17.247152] <0>.(0)[1:swapper/0][name:battery_common&]Get npercent_tracking_time: 20
+[   17.248117] <0>.(0)[1:swapper/0][name:battery_common&]Get sync_to_real_tracking_time: 60
+[   17.249126] <0>.(0)[1:swapper/0][name:battery_common&]Get v_0percent_tracking: 3450
+[   17.250080] <0>.(0)[1:swapper/0][name:battery_common&]Get high_battery_voltage_support: 1
+[   17.251134] <0>.(0)[1:swapper/0][name:battery_common&]Get ASUS_4_4V_battery_voltage_support: 1
+[   17.252202] <0>.(0)[1:swapper/0][name:battery_common&]Get mtk_jeita_standard_support failed
+[   17.253242] <0>.(0)[1:swapper/0][name:battery_common&]Get cust_soc_jeita_sync_time failed
+[   17.254262] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_recharge_voltage failed
+[   17.255419] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_above_pos_60_cv_voltage failed
+[   17.256541] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_10_to_pos_45_cv_voltage failed
+[   17.257712] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_0_to_pos_10_cv_voltage failed
+[   17.258872] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_neg_10_to_pos_0_cv_voltage failed
+[   17.260033] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_below_neg_10_cv_voltage failed
+[   17.261308] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_neg_10_to_pos_0_full_current failed
+[   17.262430] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_45_to_pos_60_recharge_voltage failed
+[   17.263666] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_10_to_pos_45_recharge_voltage failed
+[   17.264916] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_0_to_pos_10_recharge_voltage failed
+[   17.266134] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_neg_10_to_pos_0_recharge_voltage failed
+[   17.267360] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_45_to_pos_60_cc2topoff_threshold failed
+[   17.268629] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_10_to_pos_45_cc2topoff_threshold failed
+[   17.269898] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_pos_0_to_pos_10_cc2topoff_threshold failed
+[   17.271190] <0>.(0)[1:swapper/0][name:battery_common&]Get jeita_temp_neg_10_to_pos_0_cc2topoff_threshold failed
+[   17.272440] <0>.(0)[1:swapper/0][name:charging_hw_ncp1854&]get_boot_mode=2
+[   17.273458] [name:battery_common&][BAT_probe] g_platform_boot_mode = 2
+ 
+[   17.275499] <0>.(0)[1:swapper/0][name:battery_common&][BAT_probe] power_supply_register AC Success !!
+[   17.277569] <0>.(0)[1:swapper/0][name:battery_common&][BAT_probe] power_supply_register USB Success !!
+[   17.279523] <0>.(0)[1:swapper/0][name:battery_common&][BAT_probe] power_supply_register WIRELESS Success !!
+[   17.282394] <0>.(0)[1:swapper/0][name:battery_common&][BAT_probe] power_supply_register Battery Success !!
+[   17.285097] <0>.(0)[1:swapper/0][name:battery_common&]battery_kthread_hrtimer_init : done
+[   17.286508] <0>.(0)[1:swapper/0][name:battery_common&][battery_probe] bat_thread_kthread Done
+[   17.291256] <0>.(0)[1:swapper/0][name:battery_common&]charger_hv_detect_sw_workaround_init : done
+[   17.292618] <0>.(0)[1:swapper/0][name:battery_common&]proc_create bat_proc_fops
+[   17.294974] <0>.(0)[1:swapper/0][name:battery_common&]******** mt_batteryNotify_dts_probe!! ********
+[   17.296991] <0>.(0)[1:swapper/0][name:battery_common&]******** mt_batteryNotify_probe!! ********
+[   17.298219] <0>.(0)[1:swapper/0][name:battery_common&]proc_create battery_cmd_proc_fops
+[   17.299235] <0>.(0)[1:swapper/0][name:battery_common&]proc_create current_cmd_proc_fops
+[   17.300250] <0>.(0)[1:swapper/0][name:battery_common&]proc_create discharging_cmd_proc_fops
+[   17.301972] <0>.(0)[1:swapper/0][name:battery_common&]******** mtk_battery_cmd!! ********
+[   17.303443] <0>.(0)[1:swapper/0][name:battery_common&]****[battery_driver] Initialization : DONE !!
+[   17.305646] <0>.(0)[1:swapper/0][name:main&]initcall battery_init+0x0/0x1f0 returned 0 after 94364 usecs
+[   17.306935] <0>.(0)[1:swapper/0][name:bootprof&]BOOTPROF:     17306.930425:battery_init   97934693 ns
+[   17.308815] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]DP: No enter --- SODI: No enter --- 
+[   17.309910] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]CNT(dpidle,rgidle): [0] = (0,601), [1] = (0,762), [2] = (0,552), [3] = (0,524), 
+[   17.311465] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]dpidle_block_cnt: [by_cpu] = 2369, [by_clk] = 306, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, 
+[   17.313169] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]dpidle_block_mask: 0x00000002, 0x00000001, 0x0007cc03, 0x0000000c, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[   17.319055] <0>.(0)[185:wdtk-0][WDK], local_bit:0x0, cpu:0,RT[17319050655]
+[   17.319062] <0>.(0)[185:wdtk-0][WDK], local_bit:0x1, cpu:0, check bit0x:f, lasthpg_cpu:0, lasthpg_act:1, lasthpg_t:17308521194, RT[17319057117]
+[   17.319074] <0>.(0)[185:wdtk-0][thread:185][RT:17319066732] 2016-01-01 17:38:56.612472 UTC;android time 2016-01-01 17:38:56.612472
+[   17.324972] <0>-(0)[0:swapper/0][name:sched_monitor&][HRTIMER DURATION WARN] HRTIMER:tick_sched_timer+0x0/0xf0, dur:3948308 ns > 3 ms,(s:17321013040,e:17324961348)
+[   17.326792] <0>-(0)[0:swapper/0][name:sched_monitor&][ISR DURATION WARN] IRQ[30:arch_timer], dur:5780770 ns > 3 ms,(s:17321006655,e:17326787425)
+[   17.349807] <0>.(0)[1:swapper/0][name:wd_common_drv&][WDK] WDT start kicker done CPU_NR=4
+[   17.350934] <0>.(0)[1:swapper/0][name:cpu&][cpu_ntf] <00>ffffffc0008ed7f0 (wk_cpu_callback)
+[   17.352235] <0>.(0)[1:swapper/0][name:wd_common_drv&][WDK]init_wk done late_initcall cpus_kick_bit=0x1 -----
+[   17.353459] <0>.(0)[1:swapper/0][name:main&]initcall init_wk+0x0/0x2f0 returned 0 after 44141 usecs
+[   17.354585] <0>.(0)[1:swapper/0][name:bootprof&]BOOTPROF:     17354.580655:init_wk   46341692 ns
+[   17.356429] <0>.(0)[1:swapper/0][name:main&]initcall emmc_rpmb_init+0x0/0x104 returned 0 after 659 usecs
+[   17.357688] <0>.(0)[1:swapper/0][name:main&]initcall lowmem_init+0x0/0x40 returned 0 after 52 usecs
+[   17.358917] <0>.(0)[1:swapper/0][name:main&]initcall sync_debugfs_init+0x0/0x34 returned 0 after 78 usecs
+[   17.365016] <0>-(0)[183:bat_thread_kthr][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[   17.378455] <0>.(0)[183:bat_thread_kthr][name:battery_common&]wind_log_only battery_v_0percent_tracking =  3450
+[   17.379707] <0>.(0)[183:bat_thread_kthr][name:battery_common&]UI_SOC=(41), resetBatteryMeter=(0)
+[   17.380815] <0>-(0)[183:bat_thread_kthr][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[   17.383122] <0>.(0)[183:bat_thread_kthr][name:usb20&][MUSB]mt_usb_disconnect 499: is ready 0 is_host 0 power 0
+[   17.401892] <0>.(0)[183:bat_thread_kthr][name:battery_common&]AvgVbat=(3736,3736),AvgI=(0,0),VChr=18,AvgT=(28,28),SOC=(41,41),UI_SOC=41,ZCV=3797 bcct:0:0 I:50000
+[   17.403961] <0>.(0)[183:bat_thread_kthr][name:battery_common&]wind_log_only battery_v_0percent_tracking =  3450
+[   17.405303] <0>.(0)[183:bat_thread_kthr][name:battery_common&]UI_SOC=(41), resetBatteryMeter=(0)
+[   17.406400] <0>-(0)[183:bat_thread_kthr][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[   17.460997] <0>.(0)[1:swapper/0][name:main&]initcall clk_debug_init+0x0/0x14c returned 0 after 98491 usecs
+[   17.462278] <0>.(0)[1:swapper/0][name:bootprof&]BOOTPROF:     17462.273425:clk_debug_init  102155462 ns
+[   17.463492] <0>.(0)[1:swapper/0][name:main&]initcall tcp_congestion_default+0x0/0x1c returned 0 after 3 usecs
+[   17.464805] <0>.(0)[1:swapper/0][name:main&]initcall ip_auto_config+0x0/0x1484 returned 0 after 53 usecs
+[   17.466101] <0>.(0)[1:swapper/0][name:core&]vm: disabling
+[   17.466765] <0>.(0)[1:swapper/0][name:core&]vm: couldn't disable: -1
+[   17.467568] <0>.(0)[1:swapper/0][name:core&]vsram: disabling
+[   17.468263] <0>.(0)[1:swapper/0][name:core&]vsram: couldn't disable: -1
+[   17.469231] <0>.(0)[1:swapper/0][name:core&]vaud28: disabling
+[   17.469938] <0>.(0)[1:swapper/0][name:core&]vaud28: couldn't disable: -1
+[   17.470780] <0>.(0)[1:swapper/0][name:main&]initcall regulator_init_complete+0x0/0x264 returned 0 after 4640 usecs
+[   17.472261] <0>.(0)[1:swapper/0][name:mt_vcore_dvfs_1&][VcoreFS] MMDVFS_PROFILE_D1_PLUS: Default MM HPM
+[   17.473491] <0>.(0)[1:swapper/0][name:mt_vcore_dvfs_1&][VcoreFS] [late_init_to_lowpwr_opp] feature_en: 1, late_init_opp: 1
+[   17.475070] <0>.(0)[1:swapper/0][name:main&]initcall late_init_to_lowpwr_opp+0x0/0x2ac returned 0 after 2745 usecs
+[   17.476393] <0>.(0)[1:swapper/0][name:main&]initcall init_get_cache_work+0x0/0xa0 returned 0 after 6 usecs
+[   17.477623] <0>.(0)[1:swapper/0][name:main&]initcall init_get_dump_work+0x0/0xa0 returned 0 after 3 usecs
+[   17.479118] <0>.(0)[1:swapper/0][name:main&]initcall clk_disable_unused+0x0/0x184 returned 0 after 274 usecs
+[   17.480363] <0>.(0)[1:swapper/0]ALSA device list:
+[   17.480938] <0>.(0)[1:swapper/0]  #0: mt-snd-card
+[   17.481578] <0>.(0)[1:swapper/0][name:main&]initcall alsa_sound_last_init+0x0/0x80 returned 0 after 1183 usecs
+[   17.484116] <0>.(0)[1:swapper/0][name:tuxonice_core&][HIB/TOI] [toi_sys_power_disk_try_resume()]step 1 @line:1034
+[   17.485395] <0>.(0)[1:swapper/0][name:tuxonice_core&][HIB/TOI] [toi_start_anything()]hibernate_or_resume(0x0000000a), resume_file=""
+[   17.486877] <0>.(0)[1:swapper/0][name:tuxonice_bio&][HIB/TOI] [try_to_open_resume_device()]commandline=""
+[   17.488066] <0>.(0)[1:swapper/0][name:tuxonice_bio&][HIB/TOI] [try_to_open_resume_device()]skip scanning for image...
+[   17.489437] [name:tuxonice_core&]TuxOnIce: No matching enabled allocator found. Resuming disabled
+[   17.491493] <0>.(0)[1:swapper/0][name:page_alloc&]Freeing unused kernel memory: 1048K (ffffffc001220000 - ffffffc001326000)
+[   17.493127] <0>.(0)[1:swapper/0][name:page_alloc&]Freeing alternatives memory: 56K (ffffffc001326000 - ffffffc001334000)
+[   17.494477] <0>.(0)[1:swapper/0][name:bootprof&]BOOTPROF:     17494.472810:Kernel_init_done
+[   17.502393] <0>.(0)[1:init]init: init started!
+[   17.533901] <1>-(1)[0:swapper/1]CPU1: Booted secondary processor
+[   17.533922] <1>-(1)[0:swapper/1][name:cpuinfo&]Detected VIPT I-cache on CPU1
+[   17.534035] <1>-(1)[0:swapper/1][name:topology&]CPU1: update cpu_capacity 1024
+[   17.535765] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0020)(1)action end(100)(103)(0)(0) (4)(4)(4)(4)(1) (167)(19)(1) (0)(0)(0) (1)(103)(20)(0)(103) wifi_base(0)
+[   17.768412] <1>.(1)[1:init]SELinux:  Permission audit_read in class capability2 not defined in policy.
+[   17.769584] <1>.(1)[1:init]SELinux: the above unknown classes and permissions will be denied
+[   17.938347] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(78)(78)(0)(0) (4)(4)(4)(4)(1) (178)(4)(0) (384)(4)(4) (0)(78)(4)(0)(78) wifi_base(0)
+[   17.957637] <1>.(1)[1:init][name:audit&]audit: type=1403 audit(1451669937.240:2): policy loaded auid=4294967295 ses=4294967295
+[   17.960114] <1>.(1)[1:init][name:audit&]audit: type=1404 audit(1451669937.240:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[   18.001708] <1>.(1)[1:init]init: (Initializing SELinux enforcing took 0.50s.)
+[   18.023647] <0>.(0)[1:init]init: init second stage started!
+[   18.027997] <0>.(0)[1:init]init: PropSet Error:[ro.boot.hardware:mt6735]  ro.* properties may NEVER be modified once set
+[   18.029374] <0>.(0)[1:init]init: property_set("ro.boot.hardware", "mt6735") failed
+[   18.030340] <0>.(0)[1:init]init: PropSet Error:[ro.boot.serialno:111111111111111]  ro.* properties may NEVER be modified once set
+[   18.031999] <0>.(0)[1:init]init: property_set("ro.boot.serialno", "111111111111111") failed
+[   18.266318] <0>.(0)[1:init]init: waitpid failed: No child processes
+[   18.267845] <0>.(0)[1:init]init: PropSet Error:[ro.build.wind.version:Plat:ASUS_X008D_WW_V1.0B09Outer:End]  ro.* properties may NEVER be modified once set
+[   18.269589] <0>.(0)[1:init]init: property_set("ro.build.wind.version", "Plat:ASUS_X008D_WW_V1.0B09Outer:End") failed
+[   18.271326] <0>.(0)[1:init]init: PropSet Error:[ro.sys.usb.storage.type:mtp,mass_storage]  ro.* properties may NEVER be modified once set
+[   18.272880] <0>.(0)[1:init]init: property_set("ro.sys.usb.storage.type", "mtp,mass_storage") failed
+[   18.274540] <0>.(0)[1:init]init: PropSet Error:[ro.epad.model:ASUS_X008D]  ro.* properties may NEVER be modified once set
+[   18.275922] <0>.(0)[1:init]init: property_set("ro.epad.model", "ASUS_X008D") failed
+[   18.277052] <0>.(0)[1:init]init: (Loading properties from /default.prop took 0.01s.)
+[   18.279705] <0>.(0)[1:init]init: [ import /init.recovery.${ro.hardware}.rc ]
+[   18.280611] <0>.(0)[1:init]init: [ on early-init ]
+[   18.281281] <0>.(0)[1:init]init: [ on init ]
+[   18.281837] <0>.(0)[1:init]init: /init.rc: 20: invalid command 'mknod'
+[   18.282681] <0>.(0)[1:init]init: [ on fs ]
+[   18.283212] <0>.(0)[1:init]init: [ on boot ]
+[   18.283759] <0>.(0)[1:init]init: [ on load_all_props_action ]
+[   18.284488] <0>.(0)[1:init]init: [ on firmware_mounts_complete ]
+[   18.285275] <0>.(0)[1:init]init: [ on late-init ]
+[   18.285309] <0>.(1)[183:bat_thread_kthr][name:usb20&][MUSB]mt_usb_disconnect 499: is ready 0 is_host 0 power 0
+[   18.287126] <0>.(0)[1:init]init: [ on property:sys.powerctl=* ]
+[   18.287876] <0>.(0)[1:init]init: [ service ueventd ]
+[   18.288509] <0>.(0)[1:init]init: [ service healthd ]
+[   18.289141] <0>.(0)[1:init]init: [ service recovery ]
+[   18.289782] <0>.(0)[1:init]init: [ service adbd ]
+[   18.290384] <0>.(0)[1:init]init: [ on property:ro.debuggable=1 ]
+[   18.291202] <0>.(0)[1:init]init: [ on property:service.adb.root=1 ]
+[   18.291999] <0>.(0)[1:init]init: [ service mobicore ]
+[   18.292745] <0>.(0)[1:init]init: [ on init ]
+[   18.293314] <0>.(0)[1:init]init: [ on property:ro.debuggable=1 ]
+[   18.294089] <0>.(0)[1:init]init: (Parsing /init.recovery.mt6735.rc took 0.00s.)
+[   18.295064] <0>.(0)[1:init]init: (Parsing /init.rc took 0.02s.)
+[   18.295929] <0>.(0)[1:init]init: Starting service 'ueventd'...
+[   18.297627] <0>.(0)[1:init]init: Starting service 'healthd'...
+[   18.299171] <0>.(0)[1:init]init: Waiting for /dev/.coldboot_done...
+[   18.299694] <0>.(1)[183:bat_thread_kthr][name:battery_common&]AvgVbat=(3736,3740),AvgI=(0,0),VChr=18,AvgT=(27,27),SOC=(41,41),UI_SOC=41,ZCV=3797 bcct:0:0 I:50000
+[   18.299830] <0>.(1)[183:bat_thread_kthr][name:battery_common&]wind_log_only battery_v_0percent_tracking =  3450
+[   18.299835] <0>.(1)[183:bat_thread_kthr][name:battery_common&]UI_SOC=(41), resetBatteryMeter=(0)
+[   18.299849] <0>-(1)[183:bat_thread_kthr][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[   18.305144] <0>.(1)[189:ueventd]ueventd: ueventd started!
+[   18.471922] <0>.(0)[61:kworker/0:1][name:mt_dump&]get expdb info
+[   18.586946] <0>.(0)[103:display_esd_che]DSI read long packet size: 1
+[   18.587737] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   18.588721] <0>.(0)[103:display_esd_che]DSI read long packet size: 3
+[   18.589504] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   18.590489] <0>.(0)[103:display_esd_che]DSI read long packet size: 2
+[   18.591626] <0>.(0)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   19.314021] <1>.(1)[1:init]init: Timed out waiting for /dev/.coldboot_done
+[   19.314924] <1>.(1)[1:init]init: Waiting for /dev/.coldboot_done took 1.02s.
+[   19.316073] <1>.(1)[1:init]init: /dev/hw_random not found
+[   19.322370] <1>.(1)[190:healthd]healthd: Unknown battery status '3'
+[   19.325468] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   19.326653] <1>.(1)[1:init][name:g_android&][g_android]android_usb: already disabled
+[   19.327614] <1>.(1)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   19.328809] [name:g_android&][g_android][USB]enable_store: enable 0->0 case - no usb cable
+[   19.330008] <1>.(1)[62:kworker/1:1][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   19.331153] <1>.(1)[62:kworker/1:1][name:g_android&][g_android][USB]android_work: is_hwconnected=0 
+[   19.332433] <1>.(1)[62:kworker/1:1][name:g_android&][g_android][USB]android_work: did not send uevent (0 0           (null))
+[   19.334524] <1>.(1)[62:kworker/1:1][name:g_android&][g_android][USB]android_work: sent uevent USB_STATE=HWDISCONNECTED
+[   19.335855] <1>.(1)[62:kworker/1:1][name:g_android&][g_android][USB]android_work: did not send zero uevent
+[   19.340695] <1>.(1)[1:init][name:g_android&][g_android][USB]functions_store
+[   19.341718] <1>.(1)[1:init][name:g_android&][g_android][USB]functions_store: name = mtp 
+[   19.342589] <1>.(0)[190:healthd]healthd: battery l=41 v=3736 t=27.0 h=2 st=4 chg=
+[   19.343140] <1>.(0)[190:healthd]healthd: send_already = 0
+[   19.344327] <1>.(1)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=ffs 
+[   19.344858] <1>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.346288] <1>.(0)[190:healthd]healthd: battery l=41 v=3736 t=27.0 h=2 st=4 chg=
+[   19.346538] <1>.(0)[190:healthd]healthd: send_already = 0
+[   19.347948] <1>.(1)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=adb 
+[   19.348195] <1>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.349611] <1>.(0)[190:healthd]healthd: battery l=41 v=3736 t=27.0 h=2 st=4 chg=
+[   19.349862] <1>.(0)[190:healthd]healthd: send_already = 0
+[   19.351954] <1>.(1)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=acm 
+[   19.353284] <1>.(1)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=mtp 
+[   19.354795] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   19.355976] <1>.(1)[1:init][name:g_android&][g_android][USB]enable function 'mtp'/ffffffc0013e9460
+[   19.357089] [name:g_android&][g_android][USB]android_bind_enabled_functions: 
+[   19.357957] <1>.(1)[1:init][name:g_android&][g_android][USB]bind_config function 'mtp'/ffffffc0013e9460
+[   19.359148] <1>.(1)[1:init]mtp_bind_config
+[   19.359662] <1>.(1)[1:init]android_usb gadget: adding 'mtp'/ffffffc073cc4980 to config 'android'/ffffffc0013e8320
+[   19.360938] <1>.(1)[1:init]mtp_function_bind dev: ffffffc073cc4980
+[   19.362213] <1>.(1)[1:init]android_usb gadget: cfg 1/ffffffc0013e8320 speeds: high full
+[   19.362379] <1>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.363667] <1>.(0)[190:healthd]healthd: battery l=41 v=3736 t=27.0 h=2 st=4 chg=
+[   19.363895] <1>.(0)[190:healthd]healthd: send_already = 0
+[   19.365595] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=1, softconnect=0 ++
+[   19.366732] <1>.(1)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   19.367631] <1>.(1)[1:init][name:usb20&][MUSB]set_usb_rdy 52: set usb_rdy, wake up bat
+[   19.368617] <1>.(1)[1:init][name:battery_common&][BATTERY] wake_up_bat. 
+[   19.370177] <1>.(1)[183:bat_thread_kthr][name:battery_common&][BATTERY] Charger plug in/out, Call battery_meter_reset. (41)
+[   19.371757] <1>.(1)[183:bat_thread_kthr][name:usb20&][MUSB]mt_usb_disconnect 499: is ready 1 is_host 0 power 0
+[   19.373169] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2488: MUSB: gadget pull up 1 start
+[   19.374259] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2498: no USB cable, don't need to turn on USB
+[   19.375703] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2508: MUSB: gadget pull up 1 end
+[   19.376773] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: enable 0->1 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x2008
+[   19.378965] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   19.380149] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: enable 1->0 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x2008
+[   19.382342] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=0, softconnect=1 ++
+[   19.383479] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2552: check perform delay needed
+[   19.385077] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.387733] <1>.(1)[183:bat_thread_kthr][name:battery_common&]AvgVbat=(3735,3729),AvgI=(0,0),VChr=18,AvgT=(27,28),SOC=(41,41),UI_SOC=41,ZCV=3797 bcct:0:0 I:50000
+[   19.389667] <1>.(1)[183:bat_thread_kthr][name:battery_common&]wind_log_only battery_v_0percent_tracking =  3450
+[   19.390921] <1>.(1)[183:bat_thread_kthr][name:battery_common&]UI_SOC=(41), resetBatteryMeter=(0)
+[   19.392850] <1>-(1)[183:bat_thread_kthr][name:mtk_rtc_hal_common&]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[   19.394129] <1>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.395403] <0>.(0)[190:healthd]healthd: battery l=41 v=3735 t=27.0 h=2 st=4 chg=
+[   19.396551] <0>.(0)[190:healthd]healthd: send_already = 0
+[   19.398699] <0>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.400715] <0>.(0)[190:healthd]healthd: battery l=41 v=3735 t=27.0 h=2 st=4 chg=
+[   19.401976] <0>.(0)[190:healthd]healthd: send_already = 0
+[   19.404286] <0>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.406982] <0>.(0)[190:healthd]healthd: battery l=41 v=3735 t=27.0 h=2 st=4 chg=
+[   19.408253] <0>.(0)[190:healthd]healthd: send_already = 0
+[   19.410467] <0>.(0)[190:healthd]healthd: Unknown battery status '3'
+[   19.413268] <0>.(0)[190:healthd]healthd: battery l=41 v=3735 t=27.0 h=2 st=4 chg=
+[   19.414439] <0>.(0)[190:healthd]healthd: send_already = 0
+[   19.441258] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.442902] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(168)(215)(0)(0) (4)(4)(4)(4)(1) (309)(19)(1) (972)(19)(3) (0)(215)(19)(0)(215) wifi_base(0)
+[   19.501205] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.552320] <1>.(1)[189:ueventd]ueventd: Coldboot took 1.23s.
+[   19.561166] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.621135] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.681134] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.741489] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.801498] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.852079] <0>.(0)[96:hps_main][name:smp&]CPU1: shutdown
+[   19.856369] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0200)(2)action end(10)(6)(0)(0) (4)(4)(4)(4)(1) (18)(23)(1) (671)(23)(7) (0)(6)(23)(0)(6) wifi_base(0)
+[   19.861925] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.921353] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   19.981357] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.041378] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.101344] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.161459] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.221367] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.281754] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.341355] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.401405] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.461535] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.521654] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.581354] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.611843] <0>.(0)[103:display_esd_che]DSI read long packet size: 1
+[   20.612671] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   20.613719] <0>.(0)[103:display_esd_che]DSI read long packet size: 3
+[   20.614541] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   20.615587] <0>.(0)[103:display_esd_che]DSI read long packet size: 2
+[   20.616408] <0>.(0)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   20.641373] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.701375] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.761786] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.821353] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.881374] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.941349] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   20.964017] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(1)DBG_HRT(8)(9)(0)(0) (4)(4)(4)(4)(1) (14)(11)(1) (0)(0)(0) (0)(9)(11)(0)(9) wifi_base(0)
+[   21.001606] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.031570] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]SODI: blocking by uptime count = 365
+[   21.063337] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.122658] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.183550] <0>.(0)[161:kworker/u8:4][HXTP]  himax_chip_monitor_function: POLLING_COUNT=0, STATUS=0 
+[   21.184733] <0>.(0)[161:kworker/u8:4][HXTP] [himax] himax_irqdepth: irq_depth=0
+[   21.185714] <0>.(0)[161:kworker/u8:4][HXTP] [himax] himax_chip_monitor_function: himax_irqdepth_r =0
+[   21.187118] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.242949] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.302119] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.362857] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2554: sleep 50 ms
+[   21.423122] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2561: delay done, check_delay_done to 1
+[   21.424394] <0>.(0)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.425324] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2488: MUSB: gadget pull up 0 start
+[   21.427200] <0>.(0)[1:init][name:usb20&][MUSB]mt_usb_disable 340: <0,0>,<1,3,1,1>
+[   21.428162] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_stop 1339: HDRC disabled
+[   21.429118] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2508: MUSB: gadget pull up 0 end
+[   21.430257] <0>.(0)[1:init]android_usb gadget: unbind function 'mtp'/ffffffc073cc4980
+[   21.431380] <0>.(0)[1:init][name:usb20&][MUSB]musb_do_idle 248: otg_state b_idle
+[   21.432954] <0>.(0)[1:init]mtp_function_unbind, line 2121: 
+[   21.434259] <0>.(0)[1:init]android_usb gadget: unbind config 'android'/ffffffc0013e8320
+[   21.435288] <0>.(0)[1:init][name:g_android&][g_android][USB]unbind_config function 'mtp'/ffffffc0013e9460
+[   21.436513] <0>.(0)[1:init][name:g_android&][g_android][USB]disable function 'mtp'/ffffffc0013e9460
+[   21.440908] <0>.(0)[1:init][name:g_android&][g_android][USB]functions_store
+[   21.443099] <0>.(0)[1:init][name:g_android&][g_android][USB]functions_store: name = mtp 
+[   21.444101] <0>.(0)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=ffs 
+[   21.445336] <0>.(0)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=adb 
+[   21.446572] <0>.(0)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=acm 
+[   21.447808] <0>.(0)[1:init][name:g_android&][g_android][USB]android_enable_function: name = mtp, f->name=mtp 
+[   21.449268] <0>.(0)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   21.450605] <0>.(0)[1:init][name:g_android&][g_android][USB]enable function 'mtp'/ffffffc0013e9460
+[   21.451810] [name:g_android&][g_android][USB]android_bind_enabled_functions: 
+[   21.452670] <0>.(0)[1:init][name:g_android&][g_android][USB]bind_config function 'mtp'/ffffffc0013e9460
+[   21.453861] <0>.(0)[1:init]mtp_bind_config
+[   21.454373] <0>.(0)[1:init]android_usb gadget: adding 'mtp'/ffffffc073cc4980 to config 'android'/ffffffc0013e8320
+[   21.455651] <0>.(0)[1:init]mtp_function_bind dev: ffffffc073cc4980
+[   21.456564] <0>.(0)[1:init]android_usb gadget: cfg 1/ffffffc0013e8320 speeds: high full
+[   21.457556] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=1, softconnect=0 ++
+[   21.458693] <0>.(0)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.459607] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2488: MUSB: gadget pull up 1 start
+[   21.460694] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2498: no USB cable, don't need to turn on USB
+[   21.462068] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2508: MUSB: gadget pull up 1 end
+[   21.463135] <0>.(0)[1:init][name:g_android&][g_android][USB]enable_store: enable 0->1 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x2008
+[   21.465329] <0>.(0)[1:init][name:usb20&][MUSB]mt_usb_store_cmode 754: cmode=2, cable_mode=1
+[   21.466457] <0>.(0)[1:init][name:usb20&][MUSB]mt_usb_disconnect 499: is ready 1 is_host 0 power 0
+[   21.477556] <0>.(0)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.478462] <0>-(0)[1:init][name:panic&]------------[ cut here ]------------
+[   21.479339] <0>-(0)[1:init][name:panic&]WARNING: CPU: 0 PID: 1 at /home1/liangfeng/code/E28X/E281L_0721/kernel-3.18/kernel/irq/manage.c:454 __enable_irq+0x44/0x8c()
+[   21.481163] <0>-(0)[1:init]Unbalanced enable for IRQ 288
+[   21.481828] <0>-(0)[1:init]CPU: 0 PID: 1 Comm: init Tainted: G        W      3.18.19+ #1
+[   21.482833] <0>-(0)[1:init]Hardware name: MT6737T (DT)
+[   21.483474] <0>-(0)[1:init][name:traps&]Call trace:
+[   21.484084] <0>-(0)[1:init][<ffffffc00008ae40>] dump_backtrace+0x0/0x190
+[   21.484918] <0>-(0)[1:init][<ffffffc00008b0d4>] show_stack+0x10/0x1c
+[   21.485711] <0>-(0)[1:init][<ffffffc000c049e0>] dump_stack+0x74/0xb8
+[   21.486503] <0>-(0)[1:init][<ffffffc0000a123c>] warn_slowpath_common+0xd4/0x150
+[   21.487413] <0>-(0)[1:init][<ffffffc0000a1330>] warn_slowpath_fmt+0x4c/0x58
+[   21.488281] <0>-(0)[1:init][<ffffffc00012f0a4>] __enable_irq+0x40/0x8c
+[   21.489094] <0>-(0)[1:init][<ffffffc00012f124>] enable_irq+0x34/0x74
+[   21.489888] <0>-(0)[1:init][<ffffffc0004adcfc>] switch_int_to_host+0x24/0xdc
+[   21.490765] <0>-(0)[1:init][<ffffffc0004ab3c8>] mt_usb_store_cmode+0x2ec/0x5fc
+[   21.491666] <0>-(0)[1:init][<ffffffc0003bf124>] dev_attr_store+0x14/0x28
+[   21.492501] <0>-(0)[1:init][<ffffffc00026b234>] sysfs_kf_write+0x50/0x64
+[   21.493335] <0>-(0)[1:init][<ffffffc00026a574>] kernfs_fop_write+0x110/0x180
+[   21.494215] <0>-(0)[1:init][<ffffffc0001fe5b8>] vfs_write+0x98/0x1b8
+[   21.495005] <0>-(0)[1:init][<ffffffc0001fe7b8>] SyS_write+0x40/0xa0
+[   21.495785] <0>-(0)[1:init][name:panic&]---[ end trace 4afdc05364568433 ]---
+[   21.496966] <0>.(0)[1:init][name:usb20_host&][MUSB]switch_int_to_host 373: switch_int_to_host is done
+[   21.498287] <0>.(0)[1:init]init: /dev/hw_random not found
+[   21.499208] <0>.(0)[1:init][name:bootprof&]BOOTPROF:     21499.203358:start mobicore (on fs)
+[   21.500640] <0>.(0)[1:init]init: cannot find '/system/bin/mcDriverDaemon', disabling 'mobicore'
+[   21.501980] <0>.(0)[1:init][name:bootprof&]BOOTPROF:     21501.975281:start mobicore end (on fs)
+[   21.506015] <0>.(0)[1:init]init: can not load properties (null) from /system/build.prop
+[   21.507039] <0>.(0)[1:init]init: (Loading properties from /system/build.prop took 0.00s.)
+[   21.508133] <0>.(0)[1:init]init: can not load properties (null) from /vendor/build.prop
+[   21.509145] <0>.(0)[1:init]init: (Loading properties from /vendor/build.prop took 0.00s.)
+[   21.510240] <0>.(0)[1:init]init: can not load properties ro.* from /factory/factory.prop
+[   21.511432] <0>.(0)[1:init]init: (Loading properties from /factory/factory.prop took 0.00s.)
+[   21.512567] <0>.(0)[1:init]init: can not load properties (null) from /data/local.prop
+[   21.513557] <0>.(0)[1:init]init: (Loading properties from /data/local.prop took 0.00s.)
+[   21.514652] <0>.(0)[1:init]init: Unable to open persistent property directory "/data/property": No such file or directory
+[   21.516709] <0>.(0)[1:init]fs_mgr: parse_flags: bootmode(2) is NOT normal mode, disable 'default encrytion', flag=(0x10403 -> 0x10007) 
+[   21.523426] <1>-(1)[0:swapper/1]CPU1: Booted secondary processor
+[   21.523446] <1>-(1)[0:swapper/1][name:cpuinfo&]Detected VIPT I-cache on CPU1
+[   21.523558] <1>-(1)[0:swapper/1][name:topology&]CPU1: update cpu_capacity 1024
+[   21.524863] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0020)(1)action end(100)(109)(0)(0) (4)(4)(4)(4)(1) (14)(14)(0) (0)(0)(0) (1)(109)(15)(0)(109) wifi_base(0)
+[   21.526977] <1>.(1)[1:init]init: service 'ueventd' still running, return directly
+[   21.527931] <1>.(1)[1:init]init: service 'healthd' still running, return directly
+[   21.528916] <1>.(1)[1:init]init: Starting service 'recovery'...
+[   21.530668] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   21.532053] <1>.(1)[1:init][name:g_android&][g_android][USB]enable_store: enable 1->0 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x2008
+[   21.533757] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=0, softconnect=1 ++
+[   21.534890] <1>.(1)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.535790] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2488: MUSB: gadget pull up 0 start
+[   21.537185] <1>.(1)[1:init][name:usb20&][MUSB]mt_usb_disable 340: <0,0>,<1,4,1,1>
+[   21.538113] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_stop 1339: HDRC disabled
+[   21.539030] <1>.(1)[1:init][name:musb_hdrc&][MUSB]musb_pullup 2508: MUSB: gadget pull up 0 end
+[   21.540104] <1>.(1)[1:init]android_usb gadget: unbind function 'mtp'/ffffffc073cc4980
+[   21.541153] <1>.(1)[1:init][name:usb20&][MUSB]musb_do_idle 248: otg_state b_idle
+[   21.542119] <1>.(1)[1:init]mtp_function_unbind, line 2121: 
+[   21.542960] <1>.(1)[1:init]android_usb gadget: unbind config 'android'/ffffffc0013e8320
+[   21.543951] <1>.(1)[1:init][name:g_android&][g_android][USB]unbind_config function 'mtp'/ffffffc0013e9460
+[   21.545146] <1>.(1)[1:init][name:g_android&][g_android][USB]disable function 'mtp'/ffffffc0013e9460
+[   21.547600] <1>.(1)[1:init][name:g_android&][g_android][USB]functions_store
+[   21.548465] <1>.(1)[1:init][name:g_android&][g_android][USB]functions_store: name = adb 
+[   21.549473] <1>.(1)[1:init][name:g_android&][g_android][USB]android_enable_function: name = ffs, f->name=ffs 
+[   21.551653] <0>.(0)[1:init][name:g_android&][g_android][USB]enable_store: device_attr->attr.name: enable
+[   21.552839] <0>.(0)[1:init][name:g_android&][g_android][USB]enable function 'ffs'/ffffffc0013e8400
+[   21.553952] <0>.(0)[1:init][name:g_android&][g_android][USB]enable_store: enable 0->1 case, device_desc.idVendor = 0xe8d, device_desc.idProduct = 0x201c
+[   21.556105] <0>.(0)[1:init]init: Starting service 'adbd'...
+[   21.557864] <0>.(0)[1:init][name:usb20&][MUSB]mt_usb_store_cmode 754: cmode=1, cable_mode=2
+[   21.559121] <0>.(0)[1:init][name:usb20&][MUSB]mt_usb_disconnect 499: is ready 1 is_host 0 power 0
+[   21.563686] <1>.(1)[192:recovery]EXT4-fs (mmcblk0p24): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard
+[   21.570436] <0>.(0)[1:init][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.571692] <0>-(0)[1:init][name:panic&]------------[ cut here ]------------
+[   21.572573] <0>-(0)[1:init][name:panic&]WARNING: CPU: 0 PID: 1 at /home1/liangfeng/code/E28X/E281L_0721/kernel-3.18/kernel/irq/manage.c:454 __enable_irq+0x44/0x8c()
+[   21.574403] <0>-(0)[1:init]Unbalanced enable for IRQ 288
+[   21.575061] <0>-(0)[1:init]CPU: 0 PID: 1 Comm: init Tainted: G        W      3.18.19+ #1
+[   21.576066] <0>-(0)[1:init]Hardware name: MT6737T (DT)
+[   21.576707] <0>-(0)[1:init][name:traps&]Call trace:
+[   21.577321] <0>-(0)[1:init][<ffffffc00008ae40>] dump_backtrace+0x0/0x190
+[   21.578151] <0>-(0)[1:init][<ffffffc00008b0d4>] show_stack+0x10/0x1c
+[   21.578945] <0>-(0)[1:init][<ffffffc000c049e0>] dump_stack+0x74/0xb8
+[   21.579736] <0>-(0)[1:init][<ffffffc0000a123c>] warn_slowpath_common+0xd4/0x150
+[   21.580646] <0>-(0)[1:init][<ffffffc0000a1330>] warn_slowpath_fmt+0x4c/0x58
+[   21.581513] <0>-(0)[1:init][<ffffffc00012f0a4>] __enable_irq+0x40/0x8c
+[   21.582327] <0>-(0)[1:init][<ffffffc00012f124>] enable_irq+0x34/0x74
+[   21.583121] <0>-(0)[1:init][<ffffffc0004adcfc>] switch_int_to_host+0x24/0xdc
+[   21.583998] <0>-(0)[1:init][<ffffffc0004ab3c8>] mt_usb_store_cmode+0x2ec/0x5fc
+[   21.584899] <0>-(0)[1:init][<ffffffc0003bf124>] dev_attr_store+0x14/0x28
+[   21.585733] <0>-(0)[1:init][<ffffffc00026b234>] sysfs_kf_write+0x50/0x64
+[   21.586567] <0>-(0)[1:init][<ffffffc00026a574>] kernfs_fop_write+0x110/0x180
+[   21.587448] <0>-(0)[1:init][<ffffffc0001fe5b8>] vfs_write+0x98/0x1b8
+[   21.588238] <0>-(0)[1:init][<ffffffc0001fe7b8>] SyS_write+0x40/0xa0
+[   21.589018] <0>-(0)[1:init][name:panic&]---[ end trace 4afdc05364568434 ]---
+[   21.590180] <0>.(0)[1:init][name:usb20_host&][MUSB]switch_int_to_host 373: switch_int_to_host is done
+[   21.590651] <0>.(1)[196:adbd][name:g_android&][g_android]read descriptors
+[   21.590678] <0>.(1)[196:adbd][name:g_android&][g_android]read descriptors
+[   21.590700] <0>.(1)[196:adbd][name:g_android&][g_android]read strings
+[   21.590874] <0>.(1)[196:adbd][name:g_android&][g_android][USB]android_bind_enabled_functions: 
+[   21.590876] <0>.(1)[196:adbd][name:g_android&][g_android][USB]bind_config function 'ffs'/ffffffc0013e8400
+[   21.590894] <0>.(1)[196:adbd]android_usb gadget: adding 'Function FS Gadget'/ffffffc073260ab8 to config 'android'/ffffffc0013e8320
+[   21.590974] <0>.(1)[196:adbd]android_usb gadget: cfg 1/ffffffc0013e8320 speeds: high full
+[   21.590983] <0>.(1)[196:adbd][name:musb_hdrc&][MUSB]musb_gadget_pullup 2545: is_on=1, softconnect=0 ++
+[   21.590989] <0>.(1)[196:adbd][name:usb20&][MUSB]usb_cable_connected 592: type(0)
+[   21.590994] <0>.(1)[196:adbd][name:musb_hdrc&][MUSB]musb_pullup 2488: MUSB: gadget pull up 1 start
+[   21.590999] <0>.(1)[196:adbd][name:musb_hdrc&][MUSB]musb_pullup 2498: no USB cable, don't need to turn on USB
+[   21.591170] <0>.(1)[196:adbd][name:musb_hdrc&][MUSB]musb_pullup 2508: MUSB: gadget pull up 1 end
+[   21.606177] <1>.(1)[192:recovery][name:mtkfb&][DISP]mtkfb_open
+[   22.628375] <1>.(1)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(108)(108)(0)(0) (4)(4)(4)(4)(1) (216)(11)(1) (829)(11)(3) (0)(108)(11)(0)(108) wifi_base(0)
+[   22.635578] <0>.(0)[103:display_esd_che]DSI read long packet size: 1
+[   22.636387] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   22.637385] <0>.(0)[103:display_esd_che]DSI read long packet size: 3
+[   22.637391] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   22.637406] <0>.(0)[103:display_esd_che]DSI read long packet size: 2
+[   22.637411] <0>.(0)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   24.133191] <1>.(1)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(127)(79)(0)(0) (4)(4)(4)(4)(1) (281)(26)(0) (994)(26)(2) (0)(79)(26)(0)(79) wifi_base(0)
+[   24.663156] <0>.(1)[103:display_esd_che]DSI read long packet size: 1
+[   24.663183] <0>.(1)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   24.663247] <0>.(1)[103:display_esd_che]DSI read long packet size: 3
+[   24.663271] <0>.(1)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   24.663333] <0>.(1)[103:display_esd_che]DSI read long packet size: 2
+[   24.663357] <0>.(1)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   25.640413] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(85)(79)(0)(0) (4)(4)(4)(4)(1) (122)(41)(1) (968)(41)(1) (0)(79)(41)(0)(79) wifi_base(0)
+[   26.191484] <0>.(0)[161:kworker/u8:4][HXTP]  himax_chip_monitor_function: POLLING_COUNT=1, STATUS=0 
+[   26.192780] <0>.(0)[161:kworker/u8:4][HXTP] [himax] himax_irqdepth: irq_depth=0
+[   26.193684] <0>.(0)[161:kworker/u8:4][HXTP] [himax] himax_chip_monitor_function: himax_irqdepth_r =0
+[   26.685603] <0>.(0)[103:display_esd_che]DSI read long packet size: 1
+[   26.685622] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x8f, 0x0, 0x8b, 0x0, 
+[   26.685665] <0>.(0)[103:display_esd_che]DSI read long packet size: 3
+[   26.685682] <0>.(0)[103:display_esd_che]esd_check: 0x80, 0x80, 0x73, 0x73, 0x4, 0x4, 
+[   26.685725] <0>.(0)[103:display_esd_che]DSI read long packet size: 2
+[   26.685741] <0>.(0)[103:display_esd_che]esd_check: 0x5, 0xf, 0x18, 0xf0, 0xc9, 0x0, 
+[   27.146964] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0000)(2)DBG_HRT(165)(122)(0)(0) (4)(4)(4)(4)(1) (281)(56)(0) (910)(56)(0) (0)(122)(56)(0)(122) wifi_base(0)
+[   27.180809] <0>.(0)[192:recovery]EXT4-fs (mmcblk0p24): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard
+[   27.311500] <0>-(0)[0:swapper/0][name:mt_idle&][Power/swap]DP: No enter --- SODI: [0] = 11,  --- 
+[   27.342138] <1>.(1)[1:init][name:mtprof&]Reboot Process(recovery:192).
+[   27.344026] SysRq : Emergency Remount R/O
+[   27.353389] <0>.(0)[61:kworker/0:1]EXT4-fs (mmcblk0p24): re-mounted. Opts: (null)
+[   27.355304] <0>.(0)[61:kworker/0:1]Emergency Remount complete
+[   27.454123] <0>.(1)[1:init]battery battery: shutdown
+[   27.454145] <0>.(1)[1:init][name:battery_common&]******** battery driver shutdown!! ********
+[   27.456086] <0>.(1)[1:init]mmcblk mmc0:0001: shutdown
+[   27.657291] <0>.(0)[96:hps_main][name:smp&]CPU1: shutdown
+[   27.665757] <0>.(0)[96:hps_main][name:mt_hotplug_strategy_algo&][HPS] (0200)(2)action end(19)(19)(0)(0) (4)(4)(4)(4)(1) (51)(61)(1) (673)(61)(5) (0)(19)(61)(0)(19) wifi_base(0)
+[   28.063968] <0>.(0)[1:init]battery_meter battery_meter: shutdown
+[   28.066857] <0>.(0)[1:init]kd_camera_flashlight kd_camera_flashlight.0: shutdown
+[   28.068070] <0>.(0)[1:init]mtk_disp_mgr mtk_disp_mgr.0: shutdown
+[   28.069043] <0>.(0)[1:init]mtk_vibrator mtk_vibrator: shutdown
+[   28.074776] <0>.(0)[1:init]leds-mt65xx leds-mt65xx: shutdown
+[   28.076536] <0>.(0)[1:init][name:ddp_pwm&][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 0), old = -1
+[   28.078673] <0>.(0)[1:init]mt6311 3-006b: shutdown
+[   28.078722] <0>.(0)[1:init]i2c i2c-3: shutdown
+[   28.078770] <0>.(0)[1:init]i2c 2-0063: shutdown
+[   28.078817] <0>.(0)[1:init]epl259x 2-0049: shutdown
+[   28.078864] <0>.(0)[1:init]i2c 2-000e: shutdown
+[   28.078911] <0>.(0)[1:init]i2c 2-0068: shutdown
+[   28.078957] <0>.(0)[1:init]i2c 2-0030: shutdown
+[   28.079005] <0>.(0)[1:init]N2DM 2-0008: shutdown
+[   28.079052] <0>.(0)[1:init]qmcX983 2-002c: shutdown
+[   28.079100] <0>.(0)[1:init]i2c i2c-2: shutdown
+[   28.079148] <0>.(0)[1:init]ncp1854 1-0036: shutdown
+[   28.079194] <0>.(0)[1:init]i2c 1-003e: shutdown
+[   28.079242] <0>.(0)[1:init]Himax852xes 1-0048: shutdown
+[   28.079289] <0>.(0)[1:init]i2c i2c-1: shutdown
+[   28.079337] <0>.(0)[1:init]kd_camera_hw_bus2 0-006c: shutdown
+[   28.079384] <0>.(0)[1:init]MAINAF 0-000c: shutdown
+[   28.079431] <0>.(0)[1:init]kd_camera_hw 0-0020: shutdown
+[   28.079478] <0>.(0)[1:init]i2c i2c-0: shutdown
+[   28.082109] <0>.(0)[1:init]musb-hdrc musb-hdrc.0.auto: shutdown
+[   28.082115] <0>.(0)[1:init][name:musb_hdrc&][MUSB]musb_shutdown 1356: shut down
+[   28.082365] <0>-(0)[1:init][name:usb20&][MUSB]mt_usb_disable 340: <0,0>,<1,5,1,1>
+[   28.082629] <0>.(0)[1:init]mt-pmic mt-pmic: shutdown
+[   28.083146] <0>.(0)[1:init]sim-switch soc:simswitch: shutdown
+[   28.083158] <0>.(0)[1:init]mt3326-gps soc:gps: shutdown
+[   28.083172] <0>.(0)[1:init][name:gps&][gps]null pointer!!
+[   28.083356] <0>.(0)[1:init]mtkfb 7e000000.mtkfb: shutdown
+[   28.182417] <0>-(0)[1:init]INFO: trying to register non-static key.
+[   28.182421] <0>-(0)[1:init]the code is fine but needs lockdep annotation.
+[   28.182424] <0>-(0)[1:init]turning off the locking correctness validator.
+[   28.182431] <0>-(0)[1:init]CPU: 0 PID: 1 Comm: init Tainted: G        W      3.18.19+ #1
+[   28.182434] <0>-(0)[1:init]Hardware name: MT6737T (DT)
+[   28.182438] <0>-(0)[1:init][name:traps&]Call trace:
+[   28.182449] <0>-(0)[1:init][<ffffffc00008ae40>] dump_backtrace+0x0/0x190
+[   28.182456] <0>-(0)[1:init][<ffffffc00008b0d4>] show_stack+0x10/0x1c
+[   28.182464] <0>-(0)[1:init][<ffffffc000c049e0>] dump_stack+0x74/0xb8
+[   28.182470] <0>-(0)[1:init][<ffffffc0000fec18>] __lock_acquire+0x21d4/0x2230
+[   28.182476] <0>-(0)[1:init][<ffffffc0000ff590>] lock_acquire+0xe8/0x1a8
+[   28.182483] <0>-(0)[1:init][<ffffffc000c0ebf4>] _raw_spin_lock_irqsave+0x54/0x84
+[   28.182490] <0>-(0)[1:init][<ffffffc000542e30>] DSI_sw_clk_trail+0xb4/0x134
+[   28.182496] <0>-(0)[1:init][<ffffffc000543f84>] DSI_clk_HSLP_mode+0x58/0x7c
+================ END of FILE ===============
+

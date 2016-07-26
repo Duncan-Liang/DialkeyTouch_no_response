@@ -1,0 +1,268 @@
+----- timezone:GMT
+[ATF][     0.000000]ATF log service is registered (0xbffc0000, aee:0xbfffc000)
+[ATF][     0.000000]BL3-1: v1.0(debug):5881514
+[ATF][     0.000000]BL3-1: Built : 12:23:17, Jul 21 2016
+[ATF][     0.000000][BL31] Jump to FIQD for initialization!
+[ATF][     0.000000][BL31] Final dump!
+[ATF][     0.000000][BL31] SHOULD not dump in UART but in log buffer!
+[ATF][     0.000000]save kernel info
+[ATF][     0.000000]Kernel_EL2
+[ATF][     0.000000]Kernel is 64Bit
+[ATF][     0.000000]pc=0x40080000, r0=0x4e000000, r1=0x0
+[ATF][     0.000000]el3_exit
+[ATF][     0.390529]mt_on_0, entry 0
+[ATF][     0.393193]mt_on_0, entry 0
+[ATF][     0.395708]mt_on_0, entry 0
+[ATF][    12.218252]MTK_SIP_KERNEL_WDT : 0xffffffc0007eb3d4 
+[ATF][    12.218298]teearg->atf_aee_debug_buf_start : 0xbfffc000 
+[ATF][    14.271422][DAPC] Walk ATF
+[ATF][    14.271820][DAPC] d0-0=0x2000000
+[ATF][    14.271846][DAPC] d0-1=0x0
+[ATF][    14.271868][DAPC] d0-2=0x0
+[ATF][    14.271889][DAPC] d0-3=0x0
+[ATF][    14.271911][DAPC] d0-4=0x0
+[ATF][    14.271933][DAPC] d0-5=0x0
+[ATF][    14.271954][DAPC] d0-6=0x0
+[ATF][    14.271976][DAPC] d0-7=0x0
+[ATF][    14.271997][DAPC] d1-0=0x3f0fcfc0
+[ATF][    14.272023][DAPC] d1-1=0xf0ff03cf
+[ATF][    14.272049][DAPC] d1-2=0xff3000ff
+[ATF][    14.272075][DAPC] d1-3=0xfff3fcf
+[ATF][    14.272100][DAPC] d1-4=0xfffff3fc
+[ATF][    14.272126][DAPC] d1-5=0xffffffff
+[ATF][    14.272152][DAPC] d1-6=0xffffffff
+[ATF][    14.272178][DAPC] d1-7=0xfff
+[ATF][    14.272203][DAPC] ATF Init Done
+[ATF][    17.341385]mt_on_0, entry 0
+[ATF][    20.759564]mt_on_0, entry 0
+[ATF][    20.761501]mt_on_0, entry 0
+[ATF][    21.164453]mt_on_0, entry 0
+[ATF][    23.891444]mt_on_0, entry 0
+[ATF][    25.405878]mt_on_0, entry 0
+[ATF][    26.013030]mt_on_0, entry 0
+[ATF][    53.837434]mt_on_0, entry 0
+[ATF][    53.839521]mt_on_0, entry 0
+[ATF][    64.603569]mt_on_0, entry 0
+[ATF][    76.759672]mt_on_0, entry 0
+[ATF][    76.761797]mt_on_0, entry 0
+[ATF][   102.959241]mt_on_0, entry 0
+[ATF][   133.255892]mt_on_0, entry 0
+[ATF][   203.970858]mt_on_0, entry 0
+[ATF][   325.223669]mt_on_0, entry 0
+[ATF][   325.226181]mt_on_0, entry 0
+[ATF][   366.761187]mt_on_0, entry 0
+[ATF][   366.763439]mt_on_0, entry 0
+[ATF][   372.596093]mt_on_0, entry 0
+[ATF][   372.598375]mt_on_0, entry 0
+[ATF][   374.113468]mt_on_0, entry 0
+[ATF][   382.657860]mt_on_0, entry 0
+[ATF][   382.659988]mt_on_0, entry 0
+[ATF][   383.672540]mt_on_0, entry 0
+[ATF][   389.015145]mt_on_0, entry 0
+[ATF][   392.134769]mt_on_0, entry 0
+[ATF][   392.136855]mt_on_0, entry 0
+[ATF][   393.156857]mt_on_0, entry 0
+[ATF][   393.158951]mt_on_0, entry 0
+[ATF][   398.891720]mt_on_0, entry 0
+[ATF][   398.893996]mt_on_0, entry 0
+[ATF][   406.034331]mt_on_0, entry 0
+[ATF][   406.036504]mt_on_0, entry 0
+[ATF][   408.862443]mt_on_0, entry 0
+[ATF][   408.864577]mt_on_0, entry 0
+[ATF][   415.895968]mt_on_0, entry 0
+[ATF][   417.717730]mt_on_0, entry 0
+[ATF][   417.719885]mt_on_0, entry 0
+[ATF][   421.843900]mt_on_0, entry 0
+[ATF][   438.611747]mt_on_0, entry 0
+[ATF][   438.614042]mt_on_0, entry 0
+[ATF][   452.598397]mt_on_0, entry 0
+[ATF][   455.819982]mt_on_0, entry 0
+[ATF][   457.435777]mt_on_0, entry 0
+[ATF][   461.660924]mt_on_0, entry 0
+[ATF][   463.676596]mt_on_0, entry 0
+[ATF][   465.191457]mt_on_0, entry 0
+[ATF][   467.403748]mt_on_0, entry 0
+[ATF][   468.814412]mt_on_0, entry 0
+[ATF][   470.625734]mt_on_0, entry 0
+[ATF][   476.840840]mt_on_0, entry 0
+[ATF][   478.749966]mt_on_0, entry 0
+[ATF][   480.358694]mt_on_0, entry 0
+[ATF][   481.767236]mt_on_0, entry 0
+[ATF][   484.978092]mt_on_0, entry 0
+[ATF][   486.987957]mt_on_0, entry 0
+[ATF][   491.400487]mt_on_0, entry 0
+[ATF][   494.715765]mt_on_0, entry 0
+[ATF][   495.419082]mt_on_0, entry 0
+[ATF][   496.430906]mt_on_0, entry 0
+[ATF][   498.556895]mt_on_0, entry 0
+[ATF][   498.558942]mt_on_0, entry 0
+[ATF][   505.876165]mt_on_0, entry 0
+[ATF][   521.525816]mt_on_0, entry 0
+[ATF][   524.336446]mt_on_0, entry 0
+[ATF][   525.444366]mt_on_0, entry 0
+[ATF][   539.661093]mt_on_0, entry 0
+[ATF][   543.052200]mt_on_0, entry 0
+[ATF][   547.665861]mt_on_0, entry 0
+[ATF][   548.654240]mt_on_0, entry 0
+[ATF][   552.967067]mt_on_0, entry 0
+[ATF][   556.078128]mt_on_0, entry 0
+[ATF][   558.290939]mt_on_0, entry 0
+[ATF][   559.302448]mt_on_0, entry 0
+[ATF][   559.304655]mt_on_0, entry 0
+[ATF][   562.327149]mt_on_0, entry 0
+[ATF][   562.529634]mt_on_0, entry 0
+[ATF][   571.052850]mt_on_0, entry 0
+[ATF][   571.055048]mt_on_0, entry 0
+[ATF][   573.067866]mt_on_0, entry 0
+[ATF][   573.069882]mt_on_0, entry 0
+[ATF][   574.177725]mt_on_0, entry 0
+[ATF][   579.692218]mt_on_0, entry 0
+[ATF][   581.000607]mt_on_0, entry 0
+[ATF][   583.209810]mt_on_0, entry 0
+[ATF][   584.618181]mt_on_0, entry 0
+[ATF][   586.026601]mt_on_0, entry 0
+[ATF][   589.237851]mt_on_0, entry 0
+[ATF][   593.354048]mt_on_0, entry 0
+[ATF][   593.356054]mt_on_0, entry 0
+[ATF][   595.765731]mt_on_0, entry 0
+[ATF][   607.189225]mt_on_0, entry 0
+[ATF][   613.204549]mt_on_0, entry 0
+[ATF][   650.971132]mt_on_0, entry 0
+[ATF][   653.780826]mt_on_0, entry 0
+[ATF][   655.591979]mt_on_0, entry 0
+[ATF][   655.594124]mt_on_0, entry 0
+[ATF][   656.701024]mt_on_0, entry 0
+[ATF][   658.108531]mt_on_0, entry 0
+[ATF][   662.820954]mt_on_0, entry 0
+[ATF][   666.234297]mt_on_0, entry 0
+[ATF][   666.236017]mt_on_0, entry 0
+[ATF][   668.044238]mt_on_0, entry 0
+[ATF][   670.556512]mt_on_0, entry 0
+[ATF][   671.159449]mt_on_0, entry 0
+[ATF][   675.574999]mt_on_0, entry 0
+[ATF][   675.576821]mt_on_0, entry 0
+[ATF][   676.884072]mt_on_0, entry 0
+[ATF][   677.790702]mt_on_0, entry 0
+[ATF][   678.997795]mt_on_0, entry 0
+[ATF][   681.811183]mt_on_0, entry 0
+[ATF][   681.813199]mt_on_0, entry 0
+[ATF][   683.120584]mt_on_0, entry 0
+[ATF][   684.030267]mt_on_0, entry 0
+[ATF][   684.032044]mt_on_0, entry 0
+[ATF][   684.942214]mt_on_0, entry 0
+[ATF][   686.446236]mt_on_0, entry 0
+[ATF][   688.557905]mt_on_0, entry 0
+[ATF][   688.559767]mt_on_0, entry 0
+[ATF][   696.778270]mt_on_0, entry 0
+[ATF][   723.622991]mt_on_0, entry 0
+[ATF][   732.917872]mt_on_0, entry 0
+[ATF][   741.633566]mt_on_0, entry 0
+[ATF][   743.540071]mt_on_0, entry 0
+[ATF][   746.549886]mt_on_0, entry 0
+[ATF][   746.551461]mt_on_0, entry 0
+[ATF][   748.260730]mt_on_0, entry 0
+[ATF][   748.262188]mt_on_0, entry 0
+[ATF][   749.567919]mt_on_0, entry 0
+[ATF][   750.454975]mt_on_0, entry 0
+[ATF][   751.758015]mt_on_0, entry 0
+[ATF][   753.563882]mt_on_0, entry 0
+[ATF][   755.269814]mt_on_0, entry 0
+[ATF][   756.341797]mt_on_0, entry 0
+[ATF][   756.365545]mt_on_0, entry 0
+[ATF][   758.774353]mt_on_0, entry 0
+[ATF][   760.584019]mt_on_0, entry 0
+[ATF][   763.391458]mt_on_0, entry 0
+[ATF][   765.100064]mt_on_0, entry 0
+[ATF][   765.101515]mt_on_0, entry 0
+[ATF][   766.307531]mt_on_0, entry 0
+[ATF][   768.616987]mt_on_0, entry 0
+[ATF][   768.618365]mt_on_0, entry 0
+[ATF][   769.726394]mt_on_0, entry 0
+[ATF][   769.727865]mt_on_0, entry 0
+[ATF][   773.036742]mt_on_0, entry 0
+[ATF][   775.346693]mt_on_0, entry 0
+[ATF][   775.348187]mt_on_0, entry 0
+[ATF][   777.858520]mt_on_0, entry 0
+[ATF][   777.860028]mt_on_0, entry 0
+[ATF][   780.270153]mt_on_0, entry 0
+[ATF][   783.378708]mt_on_0, entry 0
+[ATF][   783.380210]mt_on_0, entry 0
+[ATF][   784.385595]mt_on_0, entry 0
+[ATF][   788.663038]mt_on_0, entry 0
+[ATF][   796.578748]mt_on_0, entry 0
+[ATF][   796.580080]mt_on_0, entry 0
+[ATF][   801.291757]mt_on_0, entry 0
+[ATF][   801.293308]mt_on_0, entry 0
+[ATF][   807.106779]mt_on_0, entry 0
+[ATF][   807.108194]mt_on_0, entry 0
+[ATF][   809.520749]mt_on_0, entry 0
+[ATF][   813.029265]mt_on_0, entry 0
+[ATF][   820.689158]mt_on_0, entry 0
+[ATF][   820.989872]mt_on_0, entry 0
+[ATF][   831.707667]mt_on_0, entry 0
+[ATF][   835.416252]mt_on_0, entry 0
+[ATF][   837.724054]mt_on_0, entry 0
+[ATF][   839.429991]mt_on_0, entry 0
+[ATF][   841.238484]mt_on_0, entry 0
+[ATF][   841.239842]mt_on_0, entry 0
+[ATF][   843.048477]mt_on_0, entry 0
+[ATF][   843.049906]mt_on_0, entry 0
+[ATF][   844.055161]mt_on_0, entry 0
+[ATF][   845.062221]mt_on_0, entry 0
+[ATF][   846.267884]mt_on_0, entry 0
+[ATF][   848.076610]mt_on_0, entry 0
+[ATF][   848.078189]mt_on_0, entry 0
+[ATF][   849.383785]mt_on_0, entry 0
+[ATF][   852.091016]mt_on_0, entry 0
+[ATF][   858.302454]mt_on_0, entry 0
+[ATF][   867.217900]mt_on_0, entry 0
+[ATF][   868.123461]mt_on_0, entry 0
+[ATF][   869.930197]mt_on_0, entry 0
+[ATF][   870.935911]mt_on_0, entry 0
+[ATF][   873.750539]mt_on_0, entry 0
+[ATF][   873.751873]mt_on_0, entry 0
+[ATF][   875.600456]mt_on_0, entry 0
+[ATF][   875.601747]mt_on_0, entry 0
+[ATF][   876.593690]mt_on_0, entry 0
+[ATF][   876.594952]mt_on_0, entry 0
+[ATF][   876.596352]mt_on_0, entry 0
+[ATF][   877.709094]mt_on_0, entry 0
+[ATF][   877.710837]mt_on_0, entry 0
+[ATF][   880.224663]mt_on_0, entry 0
+[ATF][   883.904831]mt_on_0, entry 0
+[ATF][   883.906253]mt_on_0, entry 0
+[ATF][   884.042113]mt_on_0, entry 0
+[ATF][   888.245164]mt_on_0, entry 0
+[ATF][   891.654915]mt_on_0, entry 0
+[ATF][   891.656857]mt_on_0, entry 0
+[ATF][   894.563509]mt_on_0, entry 0
+[ATF][   896.154481]mt_on_0, entry 0
+[ATF][   896.155802]mt_on_0, entry 0
+[ATF][   896.157333]mt_on_0, entry 0
+[ATF][   896.987261]mt_on_0, entry 0
+[ATF][   898.991397]mt_on_0, entry 0
+[ATF][   900.337974]mt_on_0, entry 0
+[ATF][   900.340655]mt_on_0, entry 0
+[ATF][   900.556011]mt_on_0, entry 0
+[ATF][   902.100541]mt_on_0, entry 0
+[ATF][   905.703479]mt_on_0, entry 0
+[ATF][   905.895700]mt_on_0, entry 0
+[ATF][   909.200614]mt_on_0, entry 0
+[ATF][   914.264135]mt_on_0, entry 0
+[ATF][   914.265996]mt_on_0, entry 0
+[ATF][   916.137011]mt_on_0, entry 0
+[ATF][   919.807669]mt_on_0, entry 0
+[ATF][   922.836530]mt_on_0, entry 0
+[ATF][   922.837792]mt_on_0, entry 0
+[ATF][   923.134513]mt_on_0, entry 0
+[ATF][   925.886186]mt_on_0, entry 0
+[ATF][   925.887591]mt_on_0, entry 0
+[ATF][   926.690200]mt_on_0, entry 0
+[ATF][   940.412283]mt_on_0, entry 0
+[ATF][   945.723831]mt_on_0, entry 0
+[ATF][   947.631137]mt_on_0, entry 0
+[ATF][   949.838525]mt_on_0, entry 0
+[ATF][   951.046410]mt_on_0, entry 0
+[ATF][   951.047786]mt_on_0, entry 0
+[ATF][   952.319212]mt_on_0, entry 0
+[ATF][   956.127836]mt_on_0, entry 0

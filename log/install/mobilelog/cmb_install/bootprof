@@ -1,0 +1,154 @@
+<< /proc/bootprof >>:
+----------------------------------------
+0	    BOOT PROF (unit:msec)
+----------------------------------------
+       888        : preloader
+      2647        : lk
+       230        : lk->Kernel
+----------------------------------------
+       355.407770 : ON
+       511.559770 : display_early_memory_info   17290538 ns
+       776.862694 : of_init  198928616 ns
+       815.905925 : ramoops_init   28822847 ns
+       879.375309 : init_ladder   20102154 ns
+       899.299771 : init_menu   18725000 ns
+       919.517079 : init_mtk_governor   19042077 ns
+       994.837848 : mt_power_management_init   45569154 ns
+      1181.225541 : arm64_device_init  167804846 ns
+      1306.590080 : param_sysfs_init  119088923 ns
+      1384.432541 : MTK_M4U_Init   26530230 ns
+      1427.661772 : cmdq_init   29655154 ns
+      1467.970311 : ccci_init   29358154 ns
+      1546.093772 : cfg80211_init   20344923 ns
+      1920.658696 : event_trace_init  356476770 ns
+      2036.300543 : pmic_mt_init   78831308 ns
+      2172.111620 : musb_init  121198231 ns
+      2217.150466 : inet_init   24057230 ns
+      2354.107928 : populate_rootfs  131821847 ns
+      2591.723006 : slab_sysfs_init  161091308 ns
+      2770.587314 : pty_init   31360615 ns
+      2809.494160 : loop_init   32235692 ns
+      2837.973852 : device_info_init   19797461 ns
+      3056.432699 : mas_init  217217001 ns
+      3142.594084 : _mt_gpufreq_init   47028616 ns
+      3167.735238 : hps_init   23854000 ns
+      3207.485623 : mtk_uart_init   32795308 ns
+      3304.546469 : mt_i2c_init   46457847 ns
+      3348.086546 : accdet_mod_init   25954923 ns
+     11413.884411 : mt6311_init 8042154403 ns
+     11539.329027 : mtkfb_init   93879385 ns
+     11566.921796 : kbase_platform_driver_init   21223385 ns
+     11612.583181 : CAMERA_HW_i2C_init   19369154 ns
+     12028.682490 : modem_cd_init  383938847 ns
+     12088.939951 : BTIF_init   40173077 ns
+     12212.246336 : mtk_cooler_dtm_init   23786692 ns
+     12273.185029 : emi_mpu_mod_init   22540923 ns
+     12364.937414 : mt_spi_init   58749231 ns
+     12411.066491 : battery_meter_init   17970077 ns
+     12536.616183 : mt_msdc_init  103025308 ns
+     12745.066184 : mt_soc_snd_init  103473924 ns
+     12793.628184 : inet6_init   28511308 ns
+     13826.456494 : armv8_deprecated_init 1013470157 ns
+     13917.272725 : enable_ftrace   65786539 ns
+     13973.590417 : mt_dcm_init   41895692 ns
+     14053.743418 : _mt_cpufreq_pdrv_init   76488077 ns
+     14073.229879 : ptp_init   18178846 ns
+     14182.874726 : alsps_init   92362077 ns
+     14241.067803 : acc_init   55490154 ns
+     14347.969341 : init   66265692 ns
+     17016.407425 : tpd_device_init 2667347007 ns
+     17119.298963 : battery_init   98224307 ns
+     17167.097425 : init_wk   46485308 ns
+     17275.161041 : clk_debug_init  102550616 ns
+     17307.052272 : Kernel_init_done
+     19375.058430 : INIT: on init start
+     19433.162277 : INIT:Mount_START
+     20761.201434 : INIT:Mount_END
+     20998.809126 : post-fs-data: on modem start
+     21379.748743 : trigger_shutdown_framework
+     21733.644513 : post-fs-data: on modem start
+     21980.736898 : BOOT_Animation:START
+     26390.070447 : trigger_restart_min_framework
+     38850.588938 : Zygote:Preload Start
+     39032.322939 : Zygote:Preload Start
+     45032.205338 : Zygote:Preload 3831 classes in 4849ms
+     45214.455492 : Zygote:Preload 3831 classes in 5122ms
+     46802.233726 : Zygote:Preload 342 obtain resources in 1584ms
+     46835.826803 : Zygote:Preload 41 resources in 30ms
+     46838.677496 : Zygote:Preload 342 obtain resources in 1803ms
+     46870.029650 : Zygote:Preload 41 resources in 30ms
+     47768.984113 : Zygote:Preload End
+     48002.824191 : Zygote:Preload End
+     49377.622579 : Android:SysServerInit_START
+     50181.533965 : trigger_reset_main
+     53642.723435 : post-fs-data: on modem start
+     54264.990590 : trigger_restart_framework
+     66063.187926 : Zygote:Preload Start
+     66084.172157 : Zygote:Preload Start
+     73611.734329 : Zygote:Preload 3831 classes in 6470ms
+     74127.053330 : Zygote:Preload 3831 classes in 6815ms
+     74451.089177 : Zygote:Preload 342 obtain resources in 834ms
+     74488.549792 : Zygote:Preload 41 resources in 35ms
+     75045.398255 : Zygote:Preload 342 obtain resources in 913ms
+     75073.056563 : Zygote:Preload 41 resources in 26ms
+     75258.628256 : Zygote:Preload End
+     76055.999642 : Zygote:Preload End
+     77927.038493 : Android:SysServerInit_START
+     80110.795652 : Android:PackageManagerService_Start
+     80645.377115 : Android:PMS_scan_START
+     98820.385850 : Android:PMS_scan_data_done:/system/framework
+    236856.392949 : Android:PMS_scan_data_done:/system/priv-app
+    364937.613715 : Android:PMS_scan_data_done:/system/app
+    365028.416946 : Android:PMS_scan_data_done:/system/plugin
+    365043.172869 : Android:PMS_scan_data_done:/data/app
+    375147.045047 : Android:PMS_scan_END
+    380865.554445 : Android:PMS_READY
+    398864.113411 : Android:SysServerInit_END
+    398929.481565 : AP_Init:[broadcast]:[com.asus.hardwarestub]:[com.asus.hardwarestub/.firmware.PreBootUpdateManager]:pid:2279
+    399446.959259 : AP_Init:[broadcast]:[com.wind.emode]:[com.wind.emode/.MatchingReceiver]:pid:2328
+    399735.474105 : AP_Init:[broadcast]:[com.android.settings]:[com.android.settings/.ManagedProfileSetup]:pid:2342
+    400062.842491 : AP_Init:[broadcast]:[com.android.providers.calendar]:[com.android.providers.calendar/.CalendarUpgradeReceiver]:pid:2356
+    400741.032723 : AP_Init:[broadcast]:[android.process.acore]:[com.android.providers.contacts/.ContactsUpgradeReceiver]:pid:2376
+    403146.763729 : AP_Init:[broadcast]:[com.google.process.gapps]:[com.google.android.gsf/.loginservice.MigrateToAccountManagerBroadcastReceiver]:pid:2398
+    403526.202961 : AP_Init:[broadcast]:[com.android.managedprovisioning]:[com.android.managedprovisioning/.PreBootListener]:pid:2413
+    404084.592423 : AP_Init:[broadcast]:[android.process.media]:[com.android.providers.media/.MediaUpgradeReceiver]:pid:2432
+    404741.848579 : AP_Init:[broadcast]:[com.google.android.googlequicksearchbox:search]:[com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher]:pid:2452
+    409039.070743 : AP_Init:[]:[WebViewLoader-armeabi-v7a]:pid:2485
+    409083.062743 : AP_Init:[]:[WebViewLoader-arm64-v8a]:pid:2493
+    409136.885820 : AP_Init:[content provider]:[com.asus.kidslauncher]:[com.asus.kidslauncher/.LauncherProvider]:pid:2505
+    409190.619436 : AP_Init:[service]:[com.android.systemui]:[com.android.systemui/.SystemUIService]:pid:2512:(PersistAP)
+    410821.056747 : AP_Init:[content provider]:[android.process.acore]:[com.android.providers.contacts/.CallLogProvider]:pid:2603
+    414176.320448 : AP_Init:[content provider]:[com.asus.launcher]:[com.asus.launcher/com.android.launcher3.LauncherProvider]:pid:2865
+    414230.473832 : AP_Init:[content provider]:[com.google.android.gm]:[com.google.android.gm/com.android.exchange.provider.ExchangeDirectoryProvider]:pid:2870
+    419227.177613 : AP_Init:[service]:[com.google.android.googlequicksearchbox:interactor]:[com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService]:pid:2943
+    419380.763075 : AP_Init:[service]:[com.asus.ime]:[com.asus.ime/.IME]:pid:2953
+    422065.465697 : AP_Init:[service]:[system]:[com.mediatek.flp.em/com.mediatek.flp.service.GeofenceService]:pid:3017
+    422289.814851 : AP_Init:[service]:[com.google.android.googlequicksearchbox:search]:[com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService]:pid:3025
+    423201.168315 : AP_Init:[added application]:[com.android.phone]:[com.android.phone]:pid:3079:(PersistAP)
+    423290.560623 : AP_Init:[added application]:[com.mediatek.voiceextension]:[com.mediatek.voiceextension]:pid:3085:(PersistAP)
+    423425.700777 : AP_Init:[added application]:[com.mediatek.voicecommand]:[com.mediatek.voicecommand]:pid:3098:(PersistAP)
+    423625.930932 : AP_Init:[added application]:[dk.icepower.icesound]:[dk.icepower.icesound]:pid:3112:(PersistAP)
+    423797.157240 : AP_Init:[added application]:[com.asus.audiowizard]:[com.asus.audiowizard]:pid:3132:(PersistAP)
+    424010.755932 : AP_Init:[activity]:[com.android.settings:CryptKeeper]:[com.android.settings/.CryptKeeper]:pid:3151
+    425449.025551 : AP_Init:[service]:[com.android.printspooler]:[com.android.printspooler/.model.PrintSpoolerService]:pid:3195
+    426860.968709 : AP_Init:[content provider]:[com.google.process.gapps]:[com.google.android.gsf/.gservices.GservicesProvider]:pid:3226
+    427254.224248 : AP_Init:[activity]:[com.asus.setupwizard]:[com.asus.setupwizard/.SetupWizardActivity]:pid:3241
+    427670.483941 : AP_Init:[broadcast]:[com.asus.collage]:[com.asus.collage/.promotion.PromotionBroadcastReceiver]:pid:3271
+    427826.430403 : AP_Init:[content provider]:[com.google.process.gapps]:[com.google.android.syncadapters.contacts/.GalProvider]:pid:3281
+    428061.802250 : AP_Init:[broadcast]:[com.mediatek.mtklogger]:[com.mediatek.mtklogger/.framework.LogReceiver]:pid:3302
+    431216.224719 : AP_Init:[broadcast]:[com.google.android.gms]:[com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupEnvironment$BatteryReceiver]:pid:3360
+    431317.218642 : AP_Init:[broadcast]:[com.asus.UpdateLauncher]:[com.asus.UpdateLauncher/.UpdateLauncherIntentReceiver]:pid:3366
+    439223.573276 : AP_Init:[broadcast]:[com.android.settings]:[com.android.settings/.usb.USBReceiver]:pid:3423
+    441207.497281 : AP_Init:[content provider]:[com.google.android.partnersetup]:[com.google.android.partnersetup/.RlzAppProvider]:pid:3494
+    443567.157287 : AP_Init:[service]:[com.asus.services]:[com.asus.focusapplistener/.MessengerService]:pid:3554
+    443664.765441 : AP_Init:[service]:[com.asus.taskwidget]:[com.asus.taskwidget/com.asus.quickclean.BoostServer]:pid:3562
+    447196.828988 : AP_Init:[broadcast]:[com.google.android.gms.persistent]:[com.google.android.gms/com.google.android.location.reporting.service.ExternalChangeReceiver]:pid:3639
+    450723.622304 : AP_Init:[broadcast]:[com.android.chrome]:[com.android.chrome/org.chromium.base.PowerStatusReceiver]:pid:3722
+    453364.408233 : AP_Init:[broadcast]:[com.fw.upgrade.sysoper]:[com.fw.upgrade.sysoper/com.adups.fota.sysoper.TaskReceiver]:pid:3770
+    454266.517235 : AP_Init:[broadcast]:[com.google.android.apps.photos]:[com.google.android.apps.photos/.scheduler.PowerReceiver]:pid:3805
+    462341.424024 : AP_Init:[broadcast]:[com.android.externalstorage]:[com.android.externalstorage/.MountReceiver]:pid:3866
+    465490.960724 : BOOT_Animation:END
+    465492.118031 : OFF
+----------------------------------------
+================ END of FILE ===============
+
